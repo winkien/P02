@@ -1,0 +1,588 @@
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+*/
+nav {
+
+
+  color:white;
+}
+body {
+  font-family: Tahoma;
+  padding: 2rem;
+}
+
+@media screen and (max-width:2350px) and (min-width:1350px){
+
+  .element {
+
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: grey;
+
+}
+.element a {
+  text-align: center;
+}
+
+.element1 {
+  font-family: Lucida Grande;
+  margin-bottom: -2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: grey;
+}
+.element3 a {
+  display:block;
+  margin-left: 40%;
+  margin-right: auto;
+  width:100%
+}
+.element2 p {
+  font-family: Impact;
+  font-size: 95px;
+  margin-bottom: -2rem;
+}
+.element3 p{
+  font-family: Impact;
+  font-size: 105px;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+.element4 a{
+font-family: verdana;
+text-decoration: none;
+font-size: 23px;
+  margin-left: 42.5%;
+  color:grey;
+}
+
+
+.element4 a:hover{
+text-decoration: none;
+color: black;
+}
+.element5 a{
+font-family: verdana;
+  text-align: center;
+  background-color: black;
+  margin-bottom:  2%;
+  text-decoration: none;
+}
+
+.element5 a:hover{
+  background-color: grey;
+}
+.element5 {
+border-top-width: 0.15rem;
+border-top-style: solid;
+border-top-color: grey;
+}
+
+.element5 p{
+text-align:left;
+  margin-left: -12rem;
+}
+
+.element6 {
+
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: grey;
+}
+.element6 p {
+  background-color: black;
+  margin-left: -1.5rem;
+  padding-right: 5.5rem;
+    padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+  color: white;
+}
+
+.element8 {
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: grey;
+}
+.element9 {
+
+  padding-bottom: 2rem;
+  margin-bottom: -2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: grey;
+}
+.element10 {
+  padding-bottom: 2rem;
+  margin-bottom: -2rem;
+    text-align: center;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: grey;
+}
+.element10 h1 {
+  font-size: 40px;
+    text-align: center;
+  background-color: white;
+  color: black;
+
+
+}
+.element10 h3 {
+    text-align: left;
+  background-color: white;
+  color: black;
+
+
+}
+
+.element10 p {
+  font-size: 19px;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  line-height: 2rem;
+  text-align: justify;
+
+}
+.element11 h3{
+  padding-left: 2rem;
+    text-align: left;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: grey;
+}
+
+.element11 {
+  color: black;
+  font-size: 20px;
+  line-height: 70px;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+
+}
+
+.element12{
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: grey;
+  text-align: center;
+}
+
+.element12 h2{
+  font-size: 4rem;
+padding-right: 40rem;
+margin-bottom: 4rem;
+
+}
+.element12 p{
+  font-family: Impact;
+  line-height: 3.3rem;
+  letter-spacing: 0.1em;
+  font-size: 65px;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+.element12 a{
+text-decoration: none;
+}
+.element12 a{
+color: grey;
+}
+.element12 a:hover{
+text-decoration: none;
+color: black;
+}
+
+.element122{
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.element122 h2{
+  font-size: 3rem;
+padding-right: 40rem;
+margin-bottom: 2rem;
+
+}
+.element122 p{
+  font-family: Impact;
+  line-height: 3.3rem;
+  letter-spacing: 0.1em;
+  font-size: 65px;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+.element122 a{
+text-decoration: none;
+}
+.element122 a{
+color: grey;
+}
+.element122 a:hover{
+text-decoration: none;
+color: black;
+}
+
+.element123 a{
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(50,50,50);
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+.element123 a:hover, a:focus {
+  background-color: rgb(200,200,200);
+}
+.element13 {
+text-align: center;
+padding-bottom: 2rem;
+margin-bottom: 2rem;
+border-top-width: 0.15rem;
+border-top-style: solid;
+border-top-color: grey;
+}
+.element13 h3{
+text-align: left;
+margin-left: 22rem;
+}
+.element13 h6{
+  text-align: left;
+background-color: black;
+  font-size:27px;
+  font-weight: normal;
+  color:white;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+    padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+}
+.Tahoma p{
+  font-family: Tahoma;
+  text-align: left;
+}
+.LucidaGrande p{
+  font-family: Lucida Grande;
+  text-align: left;
+}
+.Impact p{
+  font-family: Impact;
+  text-align: left;
+}
+.verdana p{
+  font-family: verdana;
+  text-align: left;
+}
+.element133 {
+text-align: center;
+padding-bottom: 2rem;
+margin-bottom: 2rem;
+margin-top: 1.2rem;
+}
+.element133 h2{
+  font-size: 22px;
+padding-top: 2.9rem;
+}
+.element13 h3{
+text-align: left;
+margin-left: 22rem;
+
+}
+.element133 h6{
+  text-align: left;
+background-color: black;
+  font-size:27px;
+  font-weight: normal;
+  color:white;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+    padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+}
+
+.element14 {
+text-align: center;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+    margin-top: 7rem;
+}
+.element14 h1 {
+  font-size: 44px;
+  font-family: Impact;
+}
+.element14 a{
+background-color: black;
+}
+
+.element14 h6{
+background-color: black;
+  font-size:27px;
+  text-align: left;
+  font-weight: normal;
+  color:white;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+    padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+}
+.element144 {
+text-align: center;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+    margin-top: 7rem;
+margin-left: 10rem;
+  float:left;
+}
+.element144 h1 {
+  padding-bottom: 1rem;
+}
+.element144 a{
+background-color: black;
+}
+
+.element144 h6{
+background-color: black;
+  font-size:27px;
+  text-align: left;
+  font-weight: normal;
+  color:white;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+    padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+}
+
+.element15  {
+    text-align: center;
+    border-top-width: 0.15rem;
+    border-top-style: solid;
+    border-top-color: grey;
+}
+.element15 a {
+      border-radius:999999922500%;
+      border-top-width: 0.15rem;
+      border-top-style: solid;
+      border-top-color: grey;
+margin-bottom: 5rem;
+}
+
+#ideas {
+  padding-bottom: 5rem;
+  margin-bottom: 5rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: grey;
+}
+#ideas p {
+  font-size: 19px;
+  font-weight: normal;
+  padding-left: 30rem;
+  padding-right: 30rem;
+  line-height: 2rem;
+  text-align: justify;
+}
+.element16 h3{
+  line-height: 4.3rem;
+  letter-spacing: 0.1em;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: grey;
+}
+.element17 h3{
+  color: white;
+}
+/* shine */
+.hover14 figure {
+	position: relative;
+}
+.hover14 figure::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(205,205,205,0) 0%, rgba(205,205,205,.3) 100%);
+	background: linear-gradient(to right, rgba(205,205,205,0) 0%, rgba(205,205,205,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.hover14 figure:hover::before {
+	-webkit-animation: shine 1.25s;
+	animation: shine 1.25s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+  /* .element8 a:hover {
+    -webkit-filter: blur(1px);
+    filter: blur(1px); */
+
+h1 {
+background-color: black;
+color:white;
+padding-left: 3.5rem;
+padding-right: 3.5rem;
+  padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+h2 {
+  margin-top: 6rem;
+
+}
+
+h3 {
+  font-style: italic;
+  font-weight:normal;
+  margin-top: 1rem;
+}
+
+h4 {
+  margin-bottom: 0.25rem;
+  font-weight:normal;
+}
+
+
+p {
+  text-align: center;
+  font-size: 21px;
+  padding-left: 13.5rem;
+  padding-right: 13.5rem;
+  margin-top: 0;
+}
+.noHover{
+    pointer-events: none;
+}
+nav a{
+  text-decoration: none;
+  color: grey;
+}
+nav a:hover, nav a:focus {
+  background-color: Black;
+  border-radius:999999922500%;
+  color:white;
+  text-decoration: none;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(50,50,50);
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: rgb(200,200,200);
+}
+
+
+
+/*
+  TEXT ELEMENTS -------------------
+*/
+
+.RB{
+  display: block;
+  position: sticky;
+  padding-left: 25px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #4f4f4f;
+}
+
+
+.RB input{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top:3px;
+  height: 15px;
+  width: 15px;
+  background-color:  #b3b3b3;
+  border-radius: 50%;
+}
+
+
+.RB:hover input ~ .checkmark{
+  background-color: #cccccc;
+}
+
+
+.RB input:checked ~ .checkmark{
+  background-color: black;
+}
+
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.RB input:checked ~ .checkmark:after {
+  display: block;
+}
+
+
+.RB .checkmark:after {
+  top: 5px;
+  left: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: white;
+}
+
+}
+/*
+  COMBINED ELEMENTS -------------------
+*/
