@@ -879,13 +879,13 @@ input[type=forminfo]:hover {
 .palette1 p{
   margin-left: 25px;
   margin-top: -85px;
-  color: #ddd;
+  color: #fff;
 }
 
 .palette1 .circle {
   height: 125px;
   width: 125px;
-  background-color: #517894;
+  background-color: #1a1a1a;
   border-radius: 50%;
   display: inline-block;
 }
@@ -893,7 +893,7 @@ input[type=forminfo]:hover {
 .palette2 p{
   margin-left: 175px;
   margin-top: -85px;
-  color: #ddd;
+  color: #fff;
 }
 
 .palette2 .circle {
@@ -915,7 +915,7 @@ input[type=forminfo]:hover {
 .palette3 .circle {
   height: 125px;
   width: 125px;
-  background-color: #beceda;
+  background-color: #999;
   border-radius: 50%;
   display: inline-block;
   margin-top:25px;
@@ -923,14 +923,14 @@ input[type=forminfo]:hover {
 
 .palette4 p{
   margin-left: 170px;
-  margin-top: -95px;
+  margin-top: -85px;
   color: #4f4f4f;
 }
 
 .palette4 .circle {
   height: 125px;
   width: 125px;
-  background-color: #ebf5f9;
+  background-color: #ddd;
   border-radius: 50%;
   display: inline-block;
   margin-top: -95px;
@@ -946,11 +946,10 @@ input[type=forminfo]:hover {
 .palette5 .circle {
   height: 125px;
   width: 125px;
-  background-color: #fff;
+  background-color: #737373;
   border-radius: 50%;
   display: inline-block;
   margin-top:25px;
-  border: 1px solid #ddd;
 }
 
 .palette6 p{
@@ -962,7 +961,7 @@ input[type=forminfo]:hover {
 .palette6 .circle {
   height: 125px;
   width: 125px;
-  background-color: #737373;
+  background-color: #ccc;
   border-radius: 50%;
   display: inline-block;
   margin-left:150px;
@@ -978,7 +977,7 @@ input[type=forminfo]:hover {
 .palette7 .circle {
   height: 125px;
   width: 125px;
-  background-color: #eaeef1;
+  background-color: #f2f2f2;
   border-radius: 50%;
   display: inline-block;
   margin-top: 25px;
@@ -993,11 +992,12 @@ input[type=forminfo]:hover {
 .palette8 .circle {
   height: 125px;
   width: 125px;
-  background-color: #ddd;
+  background-color: #fff;
   border-radius: 50%;
   display: inline-block;
   margin-left:150px;
   margin-top:-99px;
+  border: 1px solid #ddd;
 }
 
 
