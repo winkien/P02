@@ -1141,3 +1141,71 @@ input[type=forminfo]:hover {
   color: #4f4f4f;
 }
 /* end of product page */
+
+.footer {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 50px;
+  background-color: #1a1a1a;
+}
+
+.footer >*{
+  flex: 1 100%;
+}
+
+.l-footer {
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+}
+
+.footer h4{
+  font-weight: 55em;
+  font-size: 1em;
+  color: #ddd;
+}
+
+.footer ul{
+  list-style: none;
+  padding-left: 0;
+  justify-content: space-between;
+}
+
+.footer li{
+  line-height: 2em;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #ddd;
+}
+
+.r-footer {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-flow: row wrap;
+  /* margin-left: 30%; */
+width: 100%;
+}
+
+
+.footer-box a{
+  text-decoration: none;
+}
+
+.b-footer {
+  float: center;
+  color: #737373;
+  padding-top: 3em;
+}
+
+/* .l-footer p{
+  margin-right: 80%;
+  color: #ddd;
+} */
