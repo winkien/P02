@@ -28,14 +28,14 @@ body {
 
 /* navigation bar at the top of the website*/
 .container, .navbar {
-  width:100%;
+  width:102%;
   margin: 0 auto;
   /* overflow:auto; */
   background-color: #1a1a1a;
   padding-bottom:1em;
   /* padding-top: 1em; */
   margin-top: -1em;
-  margin-left:0em;
+  margin-left:-1em;
 }
 
 /* regular navigation bar */
