@@ -31,8 +31,11 @@ body {
   width:100%;
   margin: 0 auto;
   /* overflow:auto; */
-  background-color: #ddd;
-  padding:1em;
+  background-color: #1a1a1a;
+  padding-bottom:1em;
+  /* padding-top: 1em; */
+  margin-top: -1em;
+  margin-left:0em;
 }
 
 /* regular navigation bar */
@@ -67,7 +70,8 @@ body {
   font-family: "Verdana Light";
   color: black;
   text-align: center;
-  /* font-size: 0.8em; */
+  color: #999;
+  font-family: "Tahoma";
 }
 
 .banner {
@@ -75,29 +79,49 @@ body {
   margin: 0 auto;
 }
 
-.header h2{
-  padding-top: 0px;
-  padding-left: 0px;
-  padding-bottom: 0px;
-  background: white;
-  color: black;
-  display: block;
-  font-size: 1.5em;
-  margin-top: 0.83em;
-  margin-bottom: 0.83em;
-  margin-left: 0;
-  margin-right: 0;
+.title h2 {
+  color: #737373;
+  margin-top:5em;
+  text-align:center;
 }
 
-nav a:hover, nav a:focus{
+.navbar2 nav ul {
+  display: flex;
+  height: 44px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.navbar2 nav li {
+  float: left;
+}
+
+.logo img {
+  position: absolute;
+  margin-top: 1em;
+  margin-left: 1em;
+  width:2em;
+}
+
+.navbar2 nav a{
+  width: 12em;
+  display: block;
+  padding-top: 1.2em;
   text-decoration: none;
+  font-family: "Verdana Light";
+  text-align: center;
+  color: #999;
+  font-family: "Tahoma";
 }
 
 .element, .element1, .element2, .element3 {
   padding-bottom: 2rem;
   padding-top: 2rem;
   border-top-width: 0.15rem;
-  /* border-top-style: double; */
+  border-top-style: double;
   border-top-color: #dddddd;
   margin-bottom:2rem;
   padding-left: 3em;
