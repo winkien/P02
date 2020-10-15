@@ -56,9 +56,13 @@ body {
 }
 
 .container nav li h2 {
+<<<<<<< HEAD
     margin-top: 8rem;
 text-decoration: none;
   font-family: "Verdana Light";
+=======
+  font-size: 12rem;
+>>>>>>> master
   color: white;
 }
 
