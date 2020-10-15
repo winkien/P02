@@ -286,7 +286,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
 /* customize the label */
 .radio{
   display: block;
-  position: sticky;
+  position: relative;
   padding-left: 25px;
   margin-top: 12px;
   margin-bottom: 12px;
@@ -313,7 +313,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
   margin-top:3px;
   height: 15px;
   width: 15px;
-  background-color: #f2f2f2;
+  background-color: #ccc;
   border-radius: 50%;
 }
 
