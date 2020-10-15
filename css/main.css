@@ -74,6 +74,10 @@ body {
   font-family: "Tahoma";
 }
 
+.container nav a :hover{
+ color:white;
+}
+
 .banner {
   width: 80%;
   margin: 0 auto;
