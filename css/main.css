@@ -65,25 +65,28 @@ body {
 
 .logo img {
   position: absolute;
-  margin-top: 1em;
+  /* margin-top: -1em; */
   margin-left: 1em;
   width:2em;
+  padding-bottom: 1em;
 }
+
 
 .container nav a{
   width: 6em;
   display: block;
-  padding-top: 1.2em;
+  padding-top: 0.5em;
   text-decoration: none;
   font-family: "Verdana Light";
   text-align: center;
-  color: #737373;
+  color: #f2f2f2;
   font-family: "Tahoma";
 }
 
 .container nav li :hover{
- color:white;
+ color:#737373;
  transition: transform 0.5s;
+ border-bottom: 1px solid #737373;
 }
 
 .banner {
