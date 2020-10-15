@@ -915,7 +915,7 @@ input[type=forminfo]:hover {
 .palette3 .circle {
   height: 125px;
   width: 125px;
-  background-color: #999;
+  background-color: #737373;
   border-radius: 50%;
   display: inline-block;
   margin-top:25px;
@@ -930,7 +930,7 @@ input[type=forminfo]:hover {
 .palette4 .circle {
   height: 125px;
   width: 125px;
-  background-color: #ddd;
+  background-color: #999;
   border-radius: 50%;
   display: inline-block;
   margin-top: -95px;
@@ -946,7 +946,7 @@ input[type=forminfo]:hover {
 .palette5 .circle {
   height: 125px;
   width: 125px;
-  background-color: #737373;
+  background-color: #ccc;
   border-radius: 50%;
   display: inline-block;
   margin-top:25px;
@@ -955,13 +955,13 @@ input[type=forminfo]:hover {
 .palette6 p{
   margin-left: 170px;
   margin-top: -85px;
-  color: #fff;
+  color: #4f4f4f;
 }
 
 .palette6 .circle {
   height: 125px;
   width: 125px;
-  background-color: #ccc;
+  background-color: #ddd;
   border-radius: 50%;
   display: inline-block;
   margin-left:150px;
