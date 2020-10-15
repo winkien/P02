@@ -78,6 +78,11 @@ body {
  color:white;
 }
 
+.container nav li :hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+
 .banner {
   width: 80%;
   margin: 0 auto;
