@@ -128,7 +128,7 @@ body {
   display: block;
   padding-top: 1.2em;
   text-decoration: none;
-  font-family: "Verdana Light";
+  /* font-family: "Verdana"; */
   text-align: center;
   color: black;
 }
