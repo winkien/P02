@@ -55,6 +55,13 @@ body {
   float: left;
 }
 
+.container nav li h2 {
+    margin-top: 8rem;
+text-decoration: none;
+  font-family: "Verdana Light";
+  color: white;
+}
+
 .logo img {
   position: absolute;
   margin-top: 1em;
