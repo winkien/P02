@@ -74,7 +74,7 @@ body {
   font-family: "Tahoma";
 }
 
-.container nav a :hover{
+.container nav li :hover{
  color:white;
 }
 
