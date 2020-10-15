@@ -2,522 +2,254 @@
   STYLE GUIDE STYLING
   Default styling for the style guide
 */
-nav {
-
-
-  color:white;
+@font-face {
+  font-family: "Tahoma", sans-serif;
+  font-weight: 300;
 }
+
+@font-face {
+  font-family: "LucidaGrande", sans-serif;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Impact", sans-serif;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Verdana Light", sans-serif;
+  font-weight: 300;
+}
+
 body {
-  font-family: Tahoma;
-  padding: 2rem;
+  font-family:"Verdana Light", sans-serif;
 }
 
-@media screen and (max-width:2350px) and (min-width:1350px){
-
-  .element {
-
-  padding-bottom: 2rem;
-  margin-bottom: 2rem;
-  border-top-width: 0.15rem;
-  border-top-style: solid;
-  border-top-color: grey;
-
+/* navigation bar at the top of the website*/
+.container {
+  width:100%;
+  margin: 0 auto;
+  /* overflow:auto; */
+  background-color: #ddd;
+  padding:1em;
 }
-.element a {
+
+/* regular navigation bar */
+
+.container nav ul {
+  display: flex;
+  height: 44px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-left: 10em;
+}
+
+.container nav li {
+  float: left;
+}
+
+.logo img {
+  position: absolute;
+  margin-top: 1em;
+  margin-left: 1em;
+  width:2em;
+}
+
+.container nav a{
+  width: 6em;
+  display: block;
+  padding-top: 1.2em;
+  text-decoration: none;
+  font-family: "Verdana Light";
+  color: black;
   text-align: center;
+  /* font-size: 0.8em; */
 }
 
-.element1 {
-  font-family: Lucida Grande;
-  margin-bottom: -2rem;
-  border-top-width: 0.15rem;
-  border-top-style: solid;
-  border-top-color: grey;
-}
-.element3 a {
-  display:block;
-  margin-left: 40%;
-  margin-right: auto;
-  width:100%
-}
-.element2 p {
-  font-family: Impact;
-  font-size: 95px;
-  margin-bottom: -2rem;
-}
-.element3 p{
-  font-family: Impact;
-  font-size: 105px;
-  padding-bottom: 0.2rem;
-  margin-bottom: 0.2rem;
-}
-.element4 a{
-font-family: verdana;
-text-decoration: none;
-font-size: 23px;
-  margin-left: 42.5%;
-  color:grey;
+.banner {
+  width: 80%;
+  margin: 0 auto;
 }
 
-
-.element4 a:hover{
-text-decoration: none;
-color: black;
+.header h2{
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  background: white;
+  color: black;
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
 }
-.element5 a{
-font-family: verdana;
-  text-align: center;
-  background-color: black;
-  margin-bottom:  2%;
+
+nav a:hover, nav a:focus{
   text-decoration: none;
 }
 
-.element5 a:hover{
-  background-color: grey;
-}
-.element5 {
-border-top-width: 0.15rem;
-border-top-style: solid;
-border-top-color: grey;
-}
-
-.element5 p{
-text-align:left;
-  margin-left: -12rem;
-}
-
-.element6 {
-
+.element, .element1, .element2, .element3 {
   padding-bottom: 2rem;
-  margin-bottom: 2rem;
+  padding-top: 2rem;
   border-top-width: 0.15rem;
-  border-top-style: solid;
-  border-top-color: grey;
-}
-.element6 p {
-  background-color: black;
-  margin-left: -1.5rem;
-  padding-right: 5.5rem;
-    padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
-  color: white;
+  /* border-top-style: double; */
+  border-top-color: #dddddd;
+  margin-bottom:2rem;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 
-.element8 {
-  border-top-width: 0.15rem;
-  border-top-style: solid;
-  border-top-color: grey;
-}
-.element9 {
-
-  padding-bottom: 2rem;
-  margin-bottom: -2rem;
-  border-top-width: 0.15rem;
-  border-top-style: solid;
-  border-top-color: grey;
-}
-.element10 {
-  padding-bottom: 2rem;
-  margin-bottom: -2rem;
-    text-align: center;
-  border-top-width: 0.15rem;
-  border-top-style: solid;
-  border-top-color: grey;
-}
-.element10 h1 {
-  font-size: 40px;
-    text-align: center;
-  background-color: white;
-  color: black;
-
-
-}
-.element10 h3 {
-    text-align: left;
-  background-color: white;
-  color: black;
-
-
+@media screen and (max-width:688px){
+  .navbar1 ul{
+    height:12%;
+  }
 }
 
-.element10 p {
-  font-size: 19px;
-  padding-left: 20rem;
-  padding-right: 20rem;
-  line-height: 2rem;
-  text-align: justify;
-
-}
-.element11 h3{
-  padding-left: 2rem;
-    text-align: left;
-  border-top-width: 0.15rem;
-  border-top-style: solid;
-  border-top-color: grey;
+.content h2{
+  font-family: "Verdana Heavy", sans-serif;
+  color: #517894;
+  background: #eaeef1;
+  /* margin-left: 5em; */
+  padding-right: 100px;
+  margin-top: 50px;
 }
 
-.element11 {
-  color: black;
-  font-size: 20px;
-  line-height: 70px;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  margin-bottom: 2rem;
-
+#interactive_elements h2, #text_elements h2, #combined_elements h2, #idea h2, #citations h2 {
+  font-family: "Century Gothic", sans-serif;
+  color: #737373;
+  /* padding-left: 1em; */
+  margin-top: 5em;
 }
 
-.element12{
-  padding-bottom: 2rem;
-  margin-bottom: 2rem;
-  border-top-width: 0.15rem;
-  border-top-style: solid;
-  border-top-color: grey;
-  text-align: center;
-}
-
-.element12 h2{
-  font-size: 4rem;
-padding-right: 40rem;
-margin-bottom: 4rem;
-
-}
-.element12 p{
-  font-family: Impact;
-  line-height: 3.3rem;
-  letter-spacing: 0.1em;
-  font-size: 65px;
-  padding-bottom: 0.2rem;
-  margin-bottom: 0.2rem;
-}
-.element12 a{
-text-decoration: none;
-}
-.element12 a{
-color: grey;
-}
-.element12 a:hover{
-text-decoration: none;
-color: black;
-}
-
-.element122{
-  padding-bottom: 2rem;
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-.element122 h2{
-  font-size: 3rem;
-padding-right: 40rem;
-margin-bottom: 2rem;
-
-}
-.element122 p{
-  font-family: Impact;
-  line-height: 3.3rem;
-  letter-spacing: 0.1em;
-  font-size: 65px;
-  padding-bottom: 0.2rem;
-  margin-bottom: 0.2rem;
-}
-.element122 a{
-text-decoration: none;
-}
-.element122 a{
-color: grey;
-}
-.element122 a:hover{
-text-decoration: none;
-color: black;
-}
-
-.element123 a{
-  display: inline-block;
-  padding: 0.5rem;
-  color: white;
-  background-color: rgb(50,50,50);
-  text-decoration: none;
-  transition-property: background-color;
-  transition-duration: 0.5s;
-}
-.element123 a:hover, a:focus {
-  background-color: rgb(200,200,200);
-}
-.element13 {
-text-align: center;
-padding-bottom: 2rem;
-margin-bottom: 2rem;
-border-top-width: 0.15rem;
-border-top-style: solid;
-border-top-color: grey;
-}
-.element13 h3{
-text-align: left;
-margin-left: 22rem;
-}
-.element13 h6{
-  text-align: left;
-background-color: black;
-  font-size:27px;
-  font-weight: normal;
-  color:white;
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-    padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
-}
-.Tahoma p{
-  font-family: Tahoma;
-  text-align: left;
-}
-.LucidaGrande p{
-  font-family: Lucida Grande;
-  text-align: left;
-}
-.Impact p{
-  font-family: Impact;
-  text-align: left;
-}
-.verdana p{
-  font-family: verdana;
-  text-align: left;
-}
-.element133 {
-text-align: center;
-padding-bottom: 2rem;
-margin-bottom: 2rem;
-margin-top: 1.2rem;
-}
-.element133 h2{
-  font-size: 22px;
-padding-top: 2.9rem;
-}
-.element13 h3{
-text-align: left;
-margin-left: 22rem;
-
-}
-.element133 h6{
-  text-align: left;
-background-color: black;
-  font-size:27px;
-  font-weight: normal;
-  color:white;
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-    padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
-}
-
-.element14 {
-text-align: center;
-  padding-bottom: 2rem;
-  margin-bottom: 2rem;
-    margin-top: 7rem;
-}
-.element14 h1 {
-  font-size: 44px;
-  font-family: Impact;
-}
-.element14 a{
-background-color: black;
-}
-
-.element14 h6{
-background-color: black;
-  font-size:27px;
-  text-align: left;
-  font-weight: normal;
-  color:white;
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-    padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
-}
-.element144 {
-text-align: center;
-  padding-bottom: 2rem;
-  margin-bottom: 2rem;
-    margin-top: 7rem;
-margin-left: 10rem;
-  float:left;
-}
-.element144 h1 {
-  padding-bottom: 1rem;
-}
-.element144 a{
-background-color: black;
-}
-
-.element144 h6{
-background-color: black;
-  font-size:27px;
-  text-align: left;
-  font-weight: normal;
-  color:white;
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-    padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
-}
-
-.element15  {
-    text-align: center;
-    border-top-width: 0.15rem;
-    border-top-style: solid;
-    border-top-color: grey;
-}
-.element15 a {
-      border-radius:999999922500%;
-      border-top-width: 0.15rem;
-      border-top-style: solid;
-      border-top-color: grey;
-margin-bottom: 5rem;
-}
-
-#ideas {
-  padding-bottom: 5rem;
-  margin-bottom: 5rem;
-  border-top-width: 0.15rem;
-  border-top-style: solid;
-  border-top-color: grey;
-}
-#ideas p {
-  font-size: 19px;
-  font-weight: normal;
-  padding-left: 30rem;
-  padding-right: 30rem;
-  line-height: 2rem;
-  text-align: justify;
-}
-.element16 h3{
-  line-height: 4.3rem;
-  letter-spacing: 0.1em;
-  padding-bottom: 2rem;
-  margin-bottom: 2rem;
-  border-top-width: 0.15rem;
-  border-top-style: solid;
-  border-top-color: grey;
-}
-.element17 h3{
-  color: white;
-}
-/* shine */
-.hover14 figure {
-	position: relative;
-}
-.hover14 figure::before {
-	position: absolute;
-	top: 0;
-	left: -75%;
-	z-index: 2;
-	display: block;
-	content: '';
-	width: 50%;
-	height: 100%;
-	background: -webkit-linear-gradient(left, rgba(205,205,205,0) 0%, rgba(205,205,205,.3) 100%);
-	background: linear-gradient(to right, rgba(205,205,205,0) 0%, rgba(205,205,205,.3) 100%);
-	-webkit-transform: skewX(-25deg);
-	transform: skewX(-25deg);
-}
-.hover14 figure:hover::before {
-	-webkit-animation: shine 1.25s;
-	animation: shine 1.25s;
-}
-@-webkit-keyframes shine {
-	100% {
-		left: 125%;
-	}
-}
-@keyframes shine {
-	100% {
-		left: 125%;
-	}
-}
-  /* .element8 a:hover {
-    -webkit-filter: blur(1px);
-    filter: blur(1px); */
-
-h1 {
-background-color: black;
-color:white;
-padding-left: 3.5rem;
-padding-right: 3.5rem;
-  padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-}
-
-h2 {
-  margin-top: 6rem;
-
+#components h2{
+  font-family: "Century Gothic", sans-serif;
+  padding-top: 100px;
+  color: #737373;
+  padding-left: 1em;
 }
 
 h3 {
-  font-style: italic;
-  font-weight:normal;
   margin-top: 1rem;
+  color: #4f758e;
+  font-family: "Century Gothic", sans-serif;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 5px;
 }
 
 h4 {
   margin-bottom: 0.25rem;
-  font-weight:normal;
+  color: #4f4f4f;
 }
 
+h5 {
+  margin-bottom: 0.2rem;
+  color: #4f4f4f;
+}
 
-p {
-  text-align: center;
-  font-size: 21px;
-  padding-left: 13.5rem;
-  padding-right: 13.5rem;
-  margin-top: 0;
-}
-.noHover{
-    pointer-events: none;
-}
-nav a{
-  text-decoration: none;
-  color: grey;
-}
 nav a:hover, nav a:focus {
-  background-color: Black;
-  border-radius:999999922500%;
-  color:white;
   text-decoration: none;
+}
+
+/* INTERACTIVE ELEMENTS */
+/* in-text link */
+.element2 a:hover, .listing a:hover, .listing2 a:hover {
+  background-color: #beceda;
+  color: black;
+  text-decoration: none;
+}
+
+/* in-text link focus: background color to dark blue and white word */
+.element2 a:focus, .listing a:focus, .listing2 a:focus {
+  background-color: #517894;
+  color: white;
+  text-decoration: none;
+}
+/* end of in-text link */
+
+/* Styling for the navigation button */
+.element1 h4, .element2 h4, .element4 h4 {
+  font-family: "Century Gothic Light", sans-serif;
+  margin-bottom: 0.25rem;
+  color: #737373;
+}
+
+.element1 p, .element2 p, .element4 p {
+  color: #4f4f4f;
+  text-align: justify;
 }
 
 code {
-  background-color: #EEE;
+  background-color: #eaeef1;
   padding: 0.5rem;
   display: block;
+  color: #4f4f4f;
 }
 
-
-/*
-  INTERACTIVE ELEMENTS -------------------
-*/
-
-/* Styling for the navigation button */
 .button-nav {
   display: inline-block;
   padding: 0.5rem;
   color: white;
-  background-color: rgb(50,50,50);
+  background-color: #4f758e;
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
+  margin-bottom: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.button-nav:hover, .button-nav:focus {
-  background-color: rgb(200,200,200);
+/* submit/reset buttons */
+.button-nav:hover, .rs_button:hover, button:hover {
+  background-color: #beceda;
 }
 
+.rs_button, button {
+  background-color: #4f758e;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
 
+.button-nav:focus, .rs_button:focus, button:focus {
+  background-color: #dddddd;
+}
+/* end of Styling for the navigation button&submit/reset buttons */
 
-/*
-  TEXT ELEMENTS -------------------
-*/
+/* text input */
+/* resource: https://www.w3schools.com/cssref/sel_focus.asp */
+/* customize the label */
+input[type=search], input[type=forminfo] {
+  width: 250px;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+}
 
-.RB{
+/* hover: background color changed to light blue */
+input[type=search]:hover {
+  background-color: #ebf5f9;
+}
+
+/* focus: the width of text input field extends */
+input[type=search]:focus, input[type=forminfo]:focus {
+  width: 400px;
+}
+/* end of text input */
+
+/* radio button */
+/* resources: https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+/* customize the label */
+.radio{
   display: block;
   position: sticky;
   padding-left: 25px;
@@ -531,14 +263,14 @@ code {
   color: #4f4f4f;
 }
 
-
-.RB input{
+/* hide the default radio button */
+.radio input, .carrier input, .payment input{
   position: absolute;
   opacity: 0;
   cursor: pointer;
 }
 
-
+/* customeize the radio button */
 .checkmark {
   position: absolute;
   top: 0;
@@ -546,34 +278,34 @@ code {
   margin-top:3px;
   height: 15px;
   width: 15px;
-  background-color:  #b3b3b3;
+  background-color: #beceda;
   border-radius: 50%;
 }
 
-
-.RB:hover input ~ .checkmark{
-  background-color: #cccccc;
+/* hover: button turn to grey colour */
+.radio:hover input ~ .checkmark, .carrier:hover input ~ .checkmark, .payment:hover input ~ .checkmark{
+  background-color: #dddddd;
 }
 
-
-.RB input:checked ~ .checkmark{
-  background-color: black;
+/* focus(when clicked): button turn to dark blue background */
+.radio input:checked ~ .checkmark, .carrier input:checked ~ .checkmark, .payment input:checked ~ .checkmark{
+  background-color: #517894;
 }
 
-
+/* Create the indicator (the dot/circle - hidden when not checked) */
 .checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-
-.RB input:checked ~ .checkmark:after {
+/* Show the indicator (dot/circle) when checked */
+.radio input:checked ~ .checkmark:after, .carrier input:checked ~ .checkmark:after, .payment input:checked ~ .checkmark:after {
   display: block;
 }
 
-
-.RB .checkmark:after {
+/* Style the indicator (dot/circle) */
+.radio .checkmark:after, .carrier .checkmark:after, .payment .checkmark:after {
   top: 5px;
   left: 5px;
   width: 5px;
@@ -581,8 +313,807 @@ code {
   border-radius: 50%;
   background: white;
 }
+/* end of radio button */
+
+/* image as a link */
+/* resource: https://codepen.io/nxworld/pen/ZYNOBZ */
+/* image as link hover: change to grayscale */
+.element3 a:hover, .potential a:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+/* image as link focus: blurry */
+.element3 a:focus, .potential a:focus {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+/* end of image as a link */
+/* TEXT ELEMENTS */
+
+/* TEXT ELEMENTS */
+/* headings */
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: #4f4f4f;
+}
+
+#text_elements .headings h2 {
+  margin-top: -0.3em;
+  font-family: "Verdana Light", sans-serif;
+  /* margin-left: -1em; */
+  color: #4f4f4f;
+}
+
+#text_elements .headings h3, .listing h3, .listing2 h3{
+  font-family: "Verdana Light", sans-serif;
+  color: #4f4f4f;
+  border-bottom: none;
+}
+/* end of headings */
+
+/* paragraph */
+p {
+  margin-top: 0;
+  color: #4f4f4f;
+  text-align: justify;
+}
+/* end of paragraph */
+
+/* number lists */
+.element li {
+  color: #4f4f4f;
+}
+/* end of number lists */
+/* end of TEXT ELEMENTS */
+
+/* COMBINED ELEMENTS */
+/* resources: https://www.w3schools.com/w3css/w3css_navigation.asp */
+/* main navigation */
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #eaeef1;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  /* color: white; */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #4f4f4f;
+}
+
+.navbar li a, .dropbtn {
+  font-family: "Verdana Light", sans-serif;
+  display: inline-block;
+  color: #4f4f4f;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar li a:hover, .dropdown:hover .dropbtn {
+  height: 17px;
+  border-radius: 80%;
+  background: #beceda;
+}
+
+.navbar li.dropdown {
+  display: inline-block;
+}
+
+.navbar .dropdown-content {
+  margin-left: -2em;
+  display: none;
+  position: absolute;
+  background-color: #ebf5f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.navbar .dropdown-content a {
+  color: #737373;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.navbar .dropdown-content a:hover {
+  background-color: #beceda;
+  border-radius:90%;
+  height:23px;
+  background: #beceda;
+  color:white;
+}
+
+.navbar .dropdown:hover .dropdown-content {
+  display: block;
+}
+/* end of main navigation */
+
+/* product/service listing */
+.listing, .form{
+  text-align: center;
+  border: 1px solid #ddd;
+  max-width: 500px;
+  margin:auto;
+  background-color: #ebf5f9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
 }
-/*
-  COMBINED ELEMENTS -------------------
-*/
+
+.listing h3, .listing2 h3{
+  font-family: "Verdana Light", sans-serif;
+  color: #737373;
+  border-bottom: none;
+}
+
+.listing p, .listing2 p{
+  text-align: center;
+}
+
+.listing img, .listing2 img{
+  margin-top: 50px;
+}
+
+.listing h2{
+  text-align: center;
+  margin-top:-7em;
+  margin-left:-1em;
+}
+
+.circle1{
+  height: 25px;
+  width: 25px;
+  background-color: #808080;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle1:hover{
+  background-color: #000;
+}
+
+.circle1:focus{
+  border:white;
+  background-color: #000;
+}
+
+.circle2{
+  height: 25px;
+  width: 25px;
+  background-color: #ff9999;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle2:hover, .circle2:focus{
+  background-color: #ff0000;
+}
+
+.circle3{
+  height: 25px;
+  width: 25px;
+  background-color: #99e6ff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle3:hover, .circle3:focus{
+  background-color: #00bfff;
+}
+
+.circle4{
+  height: 25px;
+  width: 25px;
+  background-color: #ffbb99;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle4:hover, .circle4:focus{
+  background-color: #ff884d;
+}
+
+.circle5{
+  height: 25px;
+  width: 25px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle5:hover, .circle5:focus{
+  background-color: #fff;
+  /* border: 1px solid black; */
+}
+
+.circle6{
+  height: 25px;
+  width: 25px;
+  background-color: #eddeab;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle6:hover, .circle6:focus{
+  background-color: #d2ac2d;
+}
+
+.circle7{
+  height: 25px;
+  width: 25px;
+  background-color: #e5deed;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle7:hover, .circle7:focus{
+  background-color: #bdadd2;
+}
+
+.circle8{
+  height: 25px;
+  width: 25px;
+  background-color: #ccffe5;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle8:hover, .circle8:focus{
+  background-color: #80ffbd;
+}
+
+
+.carrier, .payment {
+  display: inline;
+  position: sticky;
+  padding-left: 25px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #4f4f4f;
+  text-align:left;
+}
+
+/* submit/reset buttons */
+.button-nav:hover, .rs_button:hover, button:hover {
+  background-color: #beceda;
+}
+/* end of product/service listing */
+
+/* payment form */
+.form p {
+  text-align: center;
+  margin-bottom:-10px;
+  margin-top: 10px;
+}
+
+input[type=forminfo]:hover {
+  background-color: #eaeef1;
+}
+
+.form button {
+  padding-bottom: 1em;
+}
+
+.form h3 {
+  border-bottom:none;
+  margin-bottom:-1em;
+  margin-left:5%;
+}
+
+.form .star {
+  color:#517894;
+}
+
+.form .button-nav{
+  margin-bottom:2em;
+}
+/* end of payment form */
+
+/* checkout cart */
+.checkout{
+  display:flex;
+  margin:auto;
+  width:50%;
+  border:1px solid #ddd;
+  margin-left:0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.checkout img{
+  height:auto;
+  width:30%;
+}
+
+.checkout .item{
+  margin-left: 2em;
+}
+.checkout .item2{
+  margin-left:-1em;
+}
+
+.checkout .text {
+  margin-left:-40em;
+  margin-top:3em;
+}
+
+.checkout .text2 {
+  margin-left:-40.5em;
+  margin-top:3em;
+}
+
+.checkout .text h3, .checkout .text2 h3{
+  border-bottom:none;
+  color:#4f4f4f;
+}
+
+.checkout .text .id p, .checkout .text2 .id p{
+  color: #737373;
+  font-family: "Verdana Light";
+}
+
+.checkout .text .price, .checkout .text2 .price{
+  float:right;
+}
+
+.total {
+  text-align: left;
+  border: 1px solid #ddd;
+  max-width: 450px;
+  width:50%;
+  float:right;
+  background-color: #ebf5f9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top:-45em;
+  padding-top:1em;
+}
+
+@media screen and (max-width:1350px)and (min-width:1000px){
+  .total{
+    max-width: 1000px;
+    margin:auto;
+    margin-left:-60em;
+    margin-top:5em;
+  }
+  .checkout{
+    width:80%;
+    margin:auto;
+  }
+  .form{
+    margin-top: 30em;
+  }
+
+}
+
+@media screen and (max-width:1000px)and (min-width:600px){
+  .total{
+    max-width: 1000px;
+    margin:auto;
+    margin-left:-60em;
+    margin-top:5em;
+    width:100%;
+  }
+  .form{
+    margin-top: 30em;
+  }
+  .checkout{
+    margin:auto;
+    width:80%;
+  }
+  .checkout .text{
+    margin-top:22em;
+    margin-left:-55em;
+    margin-bottom:2em;
+  }
+  .checkout .item{
+    margin-left:15%;
+  }
+  .checkout .text2{
+    margin-top:22em;
+    margin-left:-59em;
+    margin-bottom:2em;
+  }
+  .checkout .item2{
+    margin-left:15%;
+  }
+}
+
+@media screen and (max-width:600px){
+  .total{
+    max-width: 1000px;
+    margin:auto;
+    margin-top:5em;
+    width:100%;
+  }
+  .form{
+    margin-top: 30em;
+  }
+  .checkout{
+    margin:auto;
+    width:80%;
+  }
+  .checkout .text{
+    margin-top:22em;
+    margin-left:-55em;
+    margin-bottom:2em;
+  }
+  .checkout .item{
+    margin-left:1%;
+  }
+  .checkout .text2{
+    margin-top:22em;
+    margin-left:-59em;
+    margin-bottom:2em;
+  }
+  .checkout .item2{
+    margin-left:-15%;
+  }
+}
+
+.total h3{
+  border-bottom:none;
+  margin-left:2em;
+}
+
+.total p{
+  margin-left:2.5em;
+}
+
+.total .price, .total .tax{
+  float:right;
+  margin-right:2.5em;
+}
+
+.total .subtotal{
+  float:right;
+  margin-right: 2em;
+}
+
+.total .button-nav{
+  float:right;
+  margin-right:1em;
+}
+
+.second {
+  margin-left: 1em;
+}
+
+.second em {
+  margin-left: 0.5em;
+}
+
+.totalp {
+  padding-bottom: 1em;
+  /* margin-top: 0.5em; */
+}
+
+/* end of checkout cart */
+
+/* BRANDING_IDEA */
+.idea-q h3{
+  color: #4f758e;
+  font-family: "Century Gothic Light", sans-serif;
+  border-bottom: none;
+}
+
+.idea-a p {
+  color: #4f4f4f;
+  padding-bottom: 2em;
+  text-align: justify;
+}
+/* end of BRANDING_IDEA */
+
+/* BRANDING COMPONENTS */
+/* font */
+.font1 p {
+  font-family: "Century Gothic", sans-serif;
+  color: #4f4f4f;
+}
+
+.font2 p{
+  font-family: "Verdana Light", sans-serif;
+  color: #4f4f4f;
+}
+
+.font3 p {
+  font-family: "Verdana Heavy", sans-serif;
+  color: #4f4f4f;
+}
+
+.font4 p {
+  font-family: "Tahoma", sans-serif;
+  color: #4f4f4f;
+}
+
+.font5 p {
+  font-family: "Lucida Grande", sans-serif;
+  color: #4f4f4f;
+}
+
+.font6 p {
+  font-family: "Impact", sans-serif;
+  color: #4f4f4f;
+}
+/* end of font */
+
+/* color palette */
+.palette1 p{
+  margin-left: 25px;
+  margin-top: -85px;
+  color: #ddd;
+}
+
+.palette1 .circle {
+  height: 125px;
+  width: 125px;
+  background-color: #517894;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.palette2 p{
+  margin-left: 175px;
+  margin-top: -85px;
+  color: #ddd;
+}
+
+.palette2 .circle {
+  height: 125px;
+  width: 125px;
+  background-color: #4f4f4f;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left:150px;
+  margin-top:-100px;
+}
+
+.palette3 p{
+  margin-left: 25px;
+  margin-top: -85px;
+  color: #fff;
+}
+
+.palette3 .circle {
+  height: 125px;
+  width: 125px;
+  background-color: #beceda;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top:25px;
+}
+
+.palette4 p{
+  margin-left: 170px;
+  margin-top: -95px;
+  color: #4f4f4f;
+}
+
+.palette4 .circle {
+  height: 125px;
+  width: 125px;
+  background-color: #ebf5f9;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: -95px;
+  margin-left:150px;
+}
+
+.palette5 p{
+  margin-left: 25px;
+  margin-top: -85px;
+  color: #4f4f4f;
+}
+
+.palette5 .circle {
+  height: 125px;
+  width: 125px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top:25px;
+  border: 1px solid #ddd;
+}
+
+.palette6 p{
+  margin-left: 170px;
+  margin-top: -85px;
+  color: #fff;
+}
+
+.palette6 .circle {
+  height: 125px;
+  width: 125px;
+  background-color: #737373;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left:150px;
+  margin-top:-95px;
+}
+
+.palette7 p{
+  margin-left: 20px;
+  margin-top: -85px;
+  color: #4f4f4f;
+}
+
+.palette7 .circle {
+  height: 125px;
+  width: 125px;
+  background-color: #eaeef1;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.palette8 p{
+  margin-left: 175px;
+  margin-top: -85px;
+  color: #4f4f4f;
+}
+
+.palette8 .circle {
+  height: 125px;
+  width: 125px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left:150px;
+  margin-top:-99px;
+}
+
+
+/* end of color palette */
+/* end of BRANDING COMPONENTS */
+
+/* citations */
+#citations p {
+  color:#4f4f4f;
+  text-align: left;
+}
+
+#citations a {
+  color: #517894;
+}
+
+#citations a:hover {
+  background-color: #beceda;
+  color: black;
+  text-decoration: none;
+}
+
+#citations a:focus {
+  background-color: #517894;
+  color: white;
+  text-decoration: none;
+}
+
+#citations strong {
+  color: #737373;
+}
+/* end of citations */
+
+/* product page */
+.listing2 {
+  text-align: center;
+  border: 1px solid #ddd;
+  max-width: 300px;
+  margin:auto;
+  background-color: #ebf5f9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  float: left;
+  margin-left:7%;
+  margin-top:5%;
+  margin-bottom:3%;
+}
+
+@media screen and (max-width:1335px)and (min-width:1200px){
+  .listing2{
+    margin-left:15%;
+  }
+}
+
+@media screen and (max-width:1200px)and (min-width:800px){
+  .listing2{
+    margin-left:13%;
+  }
+}
+
+.listing2 h2{
+  text-align: center;
+  color:#737373;
+}
+
+#products h2 {
+  color:#4f4f4f;
+}
+
+#products h3, #products h4 {
+  color:#737373;
+}
+
+.bar p {
+  padding-top:8em;
+  padding-bottom:2em;
+}
+
+.bar h2 {
+  margin-top:-8em;
+  margin-left:-1em;
+  margin-bottom:3em;
+}
+
+.cover{
+  display:flex;
+  margin:auto;
+  max-width:70%;
+  height:auto;
+  border:1px solid #ddd;
+}
+
+.cover .text {
+  margin-left:-10em;
+  margin-top:5em;
+}
+
+@media screen and (max-width: 1342px){
+  .cover .text {
+    margin-top:4em;
+  }
+}
+
+@media screen and (max-width:1250px){
+  .cover  {
+    display:block;
+  }
+  .picture {
+    margin-left:13%;
+  }
+  .cover .text {
+    margin:auto;
+    margin-left:23%;
+    margin-bottom:5em;
+  }
+}
+
+@media screen and (max-width:600px){
+  .cover  {
+    display:block;
+  }
+  .picture {
+    margin-left:13%;
+  }
+  .cover .text {
+    margin:auto;
+    margin-left:20%;
+    margin-bottom:5em;
+  }
+}
+
+.cover .text h3 {
+  margin-top:3rem;
+  border-bottom:none;
+  color: #4f4f4f;
+}
+/* end of product page */
