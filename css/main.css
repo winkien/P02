@@ -1242,13 +1242,13 @@ input[type=forminfo]:hover {
   text-align: center;
 }
 
-.slogan_button1 .button-nav:hover, .slogan_button2 .button-nav:hover{
+.slogan_button1 .button-nav:hover, .slogan_button2 .button-nav:hover, .sub1 button:hover{
   background-color: #999;
   color: #f2f2f2;
   text-decoration: none;
 }
 
-.slogan_button1 .button-nav:focus, .slogan_button2 .button-nav:focus{
+.slogan_button1 .button-nav:focus, .slogan_button2 .button-nav:focus, .sub1 button:focus{
   background-color: #737373;
   color: white;
   text-decoration: none;
