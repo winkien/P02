@@ -615,8 +615,8 @@ p {
 }
 
 /* submit/reset buttons */
-.button-nav:hover, .rs_button:hover, button:hover {
-  background-color: #beceda;
+.button-nav:hover, .rs_button:hover {
+  background-color: #999;
 }
 /* end of product/service listing */
 
@@ -706,6 +706,7 @@ input[type=forminfo]:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin-top:-45em;
   padding-top:1em;
+  padding-bottom: 2em;
 }
 
 @media screen and (max-width:1350px)and (min-width:1000px){
@@ -809,11 +810,6 @@ input[type=forminfo]:hover {
   margin-right: 2em;
 }
 
-.total .button-nav{
-  float:right;
-  margin-right:1em;
-}
-
 .second {
   margin-left: 1em;
 }
@@ -825,6 +821,43 @@ input[type=forminfo]:hover {
 .totalp {
   padding-bottom: 1em;
   /* margin-top: 0.5em; */
+}
+
+.total-button1{
+  position: absolute;
+  /* left: 38%; */
+  /* top: 199%; */
+  transform: translate(80%, -30%);
+  /* -ms-transform: translate(-50%, -50%); */
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: -1em;
+  /* margin-right: 1em; */
+}
+
+.total-button2{
+  position: absolute;
+  transform: translate(130%, -30%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: -1em;
+  margin-right: -10em;
+}
+
+.total-button:hover{
+  background-color:#999;
 }
 
 /* end of checkout cart */
