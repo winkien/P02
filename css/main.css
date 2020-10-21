@@ -189,7 +189,7 @@ nav a:hover, nav a:focus {
 
 /* INTERACTIVE ELEMENTS */
 /* in-text link */
-.element2 a, .listing a{
+.element2 a, .listing a, .listing1 a{
   color: #737373;
 }
 
@@ -474,7 +474,6 @@ p {
   margin:auto;
   background-color: #f2f2f2;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
 }
 
 .listing h3, .listing2 h3{
@@ -1068,13 +1067,9 @@ input[type=forminfo]:hover {
 /* product page */
 .listing2 {
   text-align: center;
-  border: 1px solid #ddd;
-  max-width: 300px;
-  margin:auto;
-  background-color: #ebf5f9;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin:7%;
   float: left;
-  margin-left:7%;
   margin-top:5%;
   margin-bottom:3%;
 }
@@ -1408,4 +1403,51 @@ input[type=forminfo]:hover {
  color:#737373;
  transition: transform 0.5s;
  border-bottom: 1px solid #737373;
+}
+
+.icon_bar img:hover{
+ color:#737373;
+ transition: transform 0.5s;
+  border-bottom: 1px solid #737373;
+}
+
+.product_list {
+  margin-bottom: 20em;
+}
+
+#iphone_xs .listing2{
+  margin-top:7em;
+}
+
+#iphone_xs .listing2 h3{
+  margin-top:1.4em;
+}
+
+.listing2 a{
+  color: #737373;
+}
+
+.listing2 button{
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 1em;
+}
+
+#iphone8 img{
+  margin-top:2.4em;
+}
+
+#iphone7 img{
+  margin-top:3.2em;
+}
+
+.icon_bar a{
+  color:#737373;
+  text-decoration: none;
 }
