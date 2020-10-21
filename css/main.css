@@ -1367,3 +1367,20 @@ input[type=forminfo]:hover {
   border-radius: 5px;
   text-align: center;
 }
+
+/* product page */
+.banner2 h1{
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #4f4f4f;
+}
+
+.banner2 p{
+  position: absolute;
+  top: 23%;
+  left: 53.5%;
+  transform: translate(-50%, -50%);
+  color: #4f4f4f;
+}
