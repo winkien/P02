@@ -89,7 +89,7 @@ body {
  border-bottom: 1px solid #737373;
 }
 
-.banner {
+.banner  {
   width: 80%;
   margin: 0 auto;
 }
@@ -1145,18 +1145,13 @@ input[type=forminfo]:hover {
   display: -o-flex;
   display: flex;
   flex-flow: row wrap;
-  padding: 50px;
+  padding: 2em;
   background-color: #1a1a1a;
-  margin: -1em;
+  margin: -0.5em;
 }
 
 .footer >*{
   flex: 1 100%;
-}
-
-.l-footer {
-  margin-right: 1.25em;
-  margin-bottom: 2em;
 }
 
 .footer h4{
@@ -1188,7 +1183,6 @@ input[type=forminfo]:hover {
   display: flex;
   flex-flow: row wrap;
   /* margin-left: 30%; */
-width: 100%;
 }
 
 
@@ -1205,4 +1199,45 @@ width: 100%;
 .b-footer i{
   float: right;
   margin: 0.5em;
+}
+
+/* home.html */
+.title1 .centered_slogan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #737373;
+}
+
+.slogan_button1 .button-nav {
+  position: absolute;
+  top: 70%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.slogan_button2 .button-nav {
+  position: absolute;
+  top: 70%;
+  left: 58%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
 }
