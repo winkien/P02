@@ -29,26 +29,33 @@ body {
 * {
   box-sizing: border-box;
 }
-.elementbv{
+
+.elementbv {
   background-color: black;
 }
+
 .element1v {
-  color:white;
+  color: white;
   background-color: white;
   font-family: Impact;
-
 }
-.element ui{
+
+.element ui {
   padding-left: 45rem;
 }
-.banner2 .slogan .slogan_sentece h1{
-Color:white;
 
+.banner3 .slogan .slogan_sentece h1 {
+  Color: white;
+  margin-left: 5em;
+  margin-top: -10%;
 }
-.banner2 .slogan .slogan_sentece p{
-Color:white;
-padding-left: 3rem;
+
+.banner3 .slogan .slogan_sentece p {
+  Color: white;
+  margin-left:10em;
+  margin-bottom: 2em;
 }
+
 .idea-q h3 {
   color: #aaa;
   font-family: "Century Gothic Light", sans-serif;
@@ -60,49 +67,58 @@ padding-left: 3rem;
   line-height: 2rem;
   text-align: justify;
 }
-.element1v p{
+
+.about1{
+  width: 80%;
+  margin:10%;
+  float: center;
+}
+
+.element1v p {
   font-family: Verdana;
-  color:grey;
-    font-size: 0.8rem;
-    padding-top: 1rem;
-      padding-bottom: 1rem;
+  color: grey;
+  font-size: 0.8rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   text-align: center;
 }
-.element3v a {
-  display:block;
-margin-left: 25rem;
-margin-bottom: 2rem;
-  margin-right: auto;
-  width:100%
-}
-.element2v p {
-    font-family: Tahoma;
-    color:white;
-  font-size: 35px;
 
-    text-align: center;
+.element3v a {
+  display: block;
+  margin-left: 25rem;
+  margin-bottom: 2rem;
+  margin-right: auto;
+  width: 100%
 }
-.element3v p{
+
+.element2v p {
+  font-family: Tahoma;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+.element3v p {
   font-family: impact;
   font-size: 105px;
-  color:white;
+  color: white;
   padding-bottom: 0.2rem;
   margin-bottom: 0.2rem;
   text-align: center;
 }
-.element4v a{
-font-family: verdana;
-font-size: 20px;
+
+.element4v a {
+  font-family: verdana;
+  font-size: 20px;
   margin-left: 44%;
-  color:grey;
-
+  color: grey;
 }
 
-
-.element4v a:hover{
-text-decoration: none;
-color: white;
+.element4v a:hover {
+  text-decoration: none;
+  color: white;
 }
+
 .flex-item-left {
   flex: 50%;
   font-family: Tahoma;
@@ -196,7 +212,6 @@ color: white;
 }
 
 /* container2*/
-
 /* navigation bar at the top of the website*/
 .container, .navbar {
   width: 102%;
@@ -672,10 +687,9 @@ p {
   display: inline-block;
 }
 
-#iphone12 .circle1:hover, #iphone11 .circle1:hover{
+#iphone12 .circle1:hover, #iphone11 .circle1:hover {
   background-color: #4dffa9;
 }
-
 
 #iphone12 .circle2, #iphone11 .circle2, #iphone_xr .circle1 {
   height: 25px;
@@ -697,7 +711,7 @@ p {
   display: inline-block;
 }
 
-#iphone12 .circle3:hover{
+#iphone12 .circle3:hover {
   background-color: #002080;
 }
 
@@ -727,12 +741,11 @@ p {
   display: inline-block;
 }
 
-
-#iphone11 .circle4:hover{
+#iphone11 .circle4:hover {
   background-color: #b399ff;
 }
 
-#iphone_xs .circle1, #iphone8 .circle1, #iphone7 .circle1, #iphone6 .circle1{
+#iphone_xs .circle1, #iphone8 .circle1, #iphone7 .circle1, #iphone6 .circle1 {
   height: 25px;
   width: 25px;
   background-color: #fff2cc;
@@ -740,11 +753,11 @@ p {
   display: inline-block;
 }
 
-#iphone_xs .circle1:hover, #iphone8 .circle1:hover, #iphone7 .circle1:hover, #iphone6 .circle1:hover{
+#iphone_xs .circle1:hover, #iphone8 .circle1:hover, #iphone7 .circle1:hover, #iphone6 .circle1:hover {
   background-color: #ffd24d;
 }
 
-#iphone_xs .circle2, #iphone7 .circle2{
+#iphone_xs .circle2, #iphone7 .circle2 {
   height: 25px;
   width: 25px;
   background-color: #ddd;
@@ -752,7 +765,7 @@ p {
   display: inline-block;
 }
 
-#iphone_xs .circle2:hover, #iphone7 .circle2:hover{
+#iphone_xs .circle2:hover, #iphone7 .circle2:hover {
   background-color: #737373;
 }
 
@@ -768,28 +781,28 @@ p {
 #iphone_xr .circle2 {
   height: 25px;
   width: 25px;
-  background-color: #ffc6b3 ;
+  background-color: #ffc6b3;
   border-radius: 50%;
   display: inline-block;
 }
 
-#iphone_xr .circle2:hover{
+#iphone_xr .circle2:hover {
   background-color: #ff7d52;
 }
 
-#iphone_xr .circle3{
+#iphone_xr .circle3 {
   height: 25px;
   width: 25px;
-  background-color: #b3ecff ;
+  background-color: #b3ecff;
   border-radius: 50%;
   display: inline-block;
 }
 
-#iphone_xr .circle3:hover{
+#iphone_xr .circle3:hover {
   background-color: #33ccff;
 }
 
-#iphone_xr .circle4, #iphone8 .circle2{
+#iphone_xr .circle4, #iphone8 .circle2 {
   height: 25px;
   width: 25px;
   background-color: #2f2f2f;
@@ -798,7 +811,7 @@ p {
   border: 2px solid #999;
 }
 
-#iphone8 .circle3, #iphone6 .circle3{
+#iphone8 .circle3, #iphone6 .circle3 {
   height: 25px;
   width: 25px;
   background-color: #eee;
@@ -807,11 +820,11 @@ p {
   border: 1px solid #ddd;
 }
 
-#iphone8 .circle3:hover, #iphone6 .circle3:hover{
+#iphone8 .circle3:hover, #iphone6 .circle3:hover {
   background-color: #fff;
 }
 
-#iphone7 .circle3, #iphone6 .circle2{
+#iphone7 .circle3, #iphone6 .circle2 {
   height: 25px;
   width: 25px;
   background-color: #fde7e7;
@@ -1649,40 +1662,37 @@ input[type=forminfo]:hover {
   margin-top: 1.4em;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width:2160px) {
-  #iphone_xs .listing2{
+<<<<<<< HEAD @media screen and (max-width:2160px) {
+  #iphone_xs .listing2 {
     margin-top: 7em;
   }
 }
 
 @media screen and (max-width:2400px) {
-  #iphone_xs .listing2{
+  #iphone_xs .listing2 {
     margin-top: 7.7em;
   }
 }
 
 @media screen and (max-width:2700px) {
-  #iphone_xs .listing2{
+  #iphone_xs .listing2 {
     margin-top: 8.4em;
   }
 }
 
 @media screen and (max-width:2880px) {
-  #iphone_xs .listing2{
+  #iphone_xs .listing2 {
     margin-top: 8.6em;
   }
 }
 
 @media screen and (max-width:3100px) {
-  #iphone_xs .listing2{
+  #iphone_xs .listing2 {
     margin-top: 9.1em;
   }
 }
 
-=======
->>>>>>> master
-.listing2 a {
+=======>>>>>>>master .listing2 a {
   color: #737373;
 }
 
@@ -1699,19 +1709,17 @@ input[type=forminfo]:hover {
 }
 
 #iphone8 .listing2 {
-<<<<<<< HEAD
-  margin-top: 3.5em;
+  <<<<<<< HEAD margin-top: 3.5em;
 }
 
 #iphone7 .listing2 {
   margin-top: 4.4em;
-=======
-  margin-top: 5.7em;
+  =======margin-top: 5.7em;
 }
 
 #iphone7 .listing2 {
   margin-top: 6.7em;
->>>>>>> master
+  >>>>>>>master
 }
 
 .icon_bar a {
