@@ -38,31 +38,27 @@ body {
   font-family: Impact;
 
 }
-#idea2 h2{
-  margin-top: 5rem;
-  font-size: 2rem;
-text-align: center;
+.element ui{
+  padding-left: 45rem;
 }
-#idea2 h4{
-  margin-top: 5rem;
-  font-size: 2rem;
-text-align: left;
+.banner2 .slogan .slogan_sentece h1{
+Color:white;
+
 }
-#idea2 {
-  color:black;
-  padding-bottom: 5rem;
-  margin-bottom: 5rem;
-  border-top-width: 0.15rem;
-  border-top-style: solid;
-  border-top-color: grey;
+.banner2 .slogan .slogan_sentece p{
+Color:white;
+padding-left: 3rem;
 }
-#idea2 p {
-  font-size: 19px;
-  font-weight: normal;
-  padding-left: 5rem;
-  padding-right: 43rem;
+.idea-q h3 {
+  color: #aaa;
+  font-family: "Century Gothic Light", sans-serif;
+}
+
+.idea-a p {
+  color: #4f4f4f;
+  padding-bottom: 2em;
   line-height: 2rem;
-  text-align: left;
+  text-align: justify;
 }
 .element1v p{
   font-family: Verdana;
