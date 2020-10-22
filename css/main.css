@@ -589,24 +589,20 @@ p {
   margin-top: -7em;
 }
 
-.circle1 {
+#iphone12 .circle1, #iphone11 .circle1 {
   height: 25px;
   width: 25px;
-  background-color: #808080;
+  background-color: #ccffe6;
   border-radius: 50%;
   display: inline-block;
 }
 
-.circle1:hover {
-  background-color: #000;
+#iphone12 .circle1:hover, #iphone11 .circle1:hover{
+  background-color: #4dffa9;
 }
 
-.circle1:focus {
-  border: white;
-  background-color: #000;
-}
 
-.circle2 {
+#iphone12 .circle2, #iphone11 .circle2, #iphone_xr .circle1 {
   height: 25px;
   width: 25px;
   background-color: #ff9999;
@@ -614,35 +610,66 @@ p {
   display: inline-block;
 }
 
-.circle2:hover, .circle2:focus {
+#iphone12 .circle2:hover, #iphone11 .circle2:hover, #iphone_xr .circle1:hover {
   background-color: #ff0000;
 }
 
-.circle3 {
+#iphone12 .circle3 {
   height: 25px;
   width: 25px;
-  background-color: #99e6ff;
+  background-color: #b3ccff;
   border-radius: 50%;
   display: inline-block;
 }
 
-.circle3:hover, .circle3:focus {
-  background-color: #00bfff;
+#iphone12 .circle3:hover{
+  background-color: #002080;
 }
 
-.circle4 {
+#iphone12 .circle4 {
   height: 25px;
   width: 25px;
-  background-color: #ffbb99;
+  background-color: #fff2cc;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid #4f4f4f;
+}
+
+#iphone11 .circle3 {
+  height: 25px;
+  width: 25px;
+  background-color: #737373;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid #4f4f4f;
+}
+
+#iphone11 .circle4 {
+  height: 25px;
+  width: 25px;
+  background-color: #d9ccff;
   border-radius: 50%;
   display: inline-block;
 }
 
-.circle4:hover, .circle4:focus {
-  background-color: #ff884d;
+
+#iphone11 .circle4:hover{
+  background-color: #b399ff;
 }
 
-.circle5 {
+#iphone_xs .circle1{
+  height: 25px;
+  width: 25px;
+  background-color: #fff2cc;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#iphone_xs .circle1:hover{
+  background-color: #ffd24d;
+}
+
+#iphone_xs .circle2{
   height: 25px;
   width: 25px;
   background-color: #ddd;
@@ -650,46 +677,19 @@ p {
   display: inline-block;
 }
 
-.circle5:hover, .circle5:focus {
+#iphone_xs .circle2:hover{
+  background-color: #737373;
+}
+
+#iphone_xs .circle3 {
+  height: 25px;
+  width: 25px;
   background-color: #fff;
-  /* border: 1px solid black; */
-}
-
-.circle6 {
-  height: 25px;
-  width: 25px;
-  background-color: #eddeab;
   border-radius: 50%;
   display: inline-block;
+    border: 2px solid #4f4f4f;
 }
 
-.circle6:hover, .circle6:focus {
-  background-color: #d2ac2d;
-}
-
-.circle7 {
-  height: 25px;
-  width: 25px;
-  background-color: #e5deed;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.circle7:hover, .circle7:focus {
-  background-color: #bdadd2;
-}
-
-.circle8 {
-  height: 25px;
-  width: 25px;
-  background-color: #ccffe5;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.circle8:hover, .circle8:focus {
-  background-color: #80ffbd;
-}
 
 .carrier, .payment {
   display: inline;
