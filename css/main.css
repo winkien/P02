@@ -39,13 +39,13 @@ body {
 
 .banner3 .slogan .slogan_sentece p {
   Color: white;
-  margin-left:10em;
+  margin-left: 10em;
   margin-bottom: 2em;
 }
 
-.about1{
+.about1 {
   width: 80%;
-  margin:10%;
+  margin: 10%;
   float: center;
 }
 
@@ -68,9 +68,6 @@ body {
   padding-bottom: 1rem;
   text-align: center;
 }
-
-
-
 
 .element3v a {
   display: block;
@@ -202,7 +199,6 @@ body {
 
 /* container2*/
 /* navigation bar at the top of the website*/
-
 .container, .navbar {
   width: 102%;
   margin: 0 auto;
@@ -968,12 +964,12 @@ input[type=forminfo]:hover {
     width: 100%;
   }
 
-  .total .total-button1{
-    margin-left:15em;
+  .total .total-button1 {
+    margin-left: 15em;
   }
 
-  .total .total-button2{
-    margin-left:15em;
+  .total .total-button2 {
+    margin-left: 15em;
   }
 
   .checkout {
@@ -995,12 +991,12 @@ input[type=forminfo]:hover {
     width: 100%;
   }
 
-  .total .total-button1{
-    margin-left:4em;
+  .total .total-button1 {
+    margin-left: 4em;
   }
 
-  .total .total-button2{
-    margin-left:4em;
+  .total .total-button2 {
+    margin-left: 4em;
   }
 
   .form {
@@ -1033,7 +1029,6 @@ input[type=forminfo]:hover {
   }
 }
 
-
 @media screen and (max-width:800px)and (min-width:600px) {
   .total {
     max-width: 1000px;
@@ -1044,12 +1039,12 @@ input[type=forminfo]:hover {
     padding-bottom: 6em;
   }
 
-  .total .total-button1{
-    margin-left:5.5em;
+  .total .total-button1 {
+    margin-left: 5.5em;
   }
 
-  .total .total-button2{
-    margin-left:-6em;
+  .total .total-button2 {
+    margin-left: -6em;
     margin-top: 3em;
   }
 
@@ -1092,14 +1087,15 @@ input[type=forminfo]:hover {
     padding-bottom: 6em;
   }
 
-  .total .total-button1{
-    margin-left:1.5em;
+  .total .total-button1 {
+    margin-left: 1.5em;
   }
 
-  .total .total-button2{
-    margin-left:-10em;
+  .total .total-button2 {
+    margin-left: -10em;
     margin-top: 3em;
   }
+
   .form {
     margin-top: 36em;
   }
@@ -1216,7 +1212,6 @@ input[type=forminfo]:hover {
   padding-bottom: 2em;
   text-align: justify;
   line-height: 2em;
-
 }
 
 /* end of BRANDING_IDEA */
@@ -1566,7 +1561,6 @@ input[type=forminfo]:hover {
 }
 
 /* home.html */
-@media screen and (max-width:2350px) and (min-width:1200px){
 .slogan .centered_slogan {
   position: absolute;
   top: 50%;
@@ -1623,54 +1617,45 @@ input[type=forminfo]:hover {
   text-decoration: none;
 }
 
-.intro img {
-  float: right;
+@media screen and (max-width: 4000px) and (min-width: 1400px){
+  .intro img {
+    float: right;
+    margin-bottom: 10em;
+  }
+
+  .sub1 .i1, .i2, .i3{
+    width: 50%;
+  }
+
+  .sub1 .i5{
+    margin-top: -35em;
+  }
+
+  .sub1 .i4{
+    margin-top: -2em;
+  }
+  .sub1 img{
+    margin-left: 20em;
   }
 }
-@media screen and (max-width:2350px) and (min-width:800px){
+
 .intro {
-  /* padding-bottom: 20em; */
   width: 80%;
-  margin: 10em;
+  margin: 10%;
 }
 
-.sub1 ul {
-  height: 36em;
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+@media screen and (max-width: 1400px) and (min-width: 1000px){
+  .sub1 .i5 {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .sub1 button{
+
+    transform: translate(6em, 30em);
+  }
 }
 
-.sub1 li {
-  width: 50%;
-}
-
-.sub1 li:nth-child(1) {
-  /* background: #ffe6e6; */
-  flex: 0 0 33.33%;
-}
-
-.sub1 li:nth-child(2) {
-  /* background: #30BB75; */
-  flex: 0 0 33.33%;
-}
-
-.sub1 li:nth-child(3) {
-  /* background: #BB3047; */
-  flex: 0 0 33.33%;
-}
-
-.sub1 li:nth-child(4) {
-  flex: 0 0 100%;
-  /* background: #305EBB; */
-}
 
 .sub1 i {
   margin-left: 1em;
