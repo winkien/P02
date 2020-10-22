@@ -1567,13 +1567,14 @@ input[type=forminfo]:hover {
 }
 
 #iphone_xs .listing2 {
-  margin-top: 15em;
+  margin-top: 9.3em;
 }
 
 #iphone_xs .listing2 h3 {
   margin-top: 1.4em;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width:2160px) {
   #iphone_xs .listing2{
     margin-top: 7em;
@@ -1604,6 +1605,8 @@ input[type=forminfo]:hover {
   }
 }
 
+=======
+>>>>>>> master
 .listing2 a {
   color: #737373;
 }
@@ -1621,11 +1624,19 @@ input[type=forminfo]:hover {
 }
 
 #iphone8 .listing2 {
+<<<<<<< HEAD
   margin-top: 3.5em;
 }
 
 #iphone7 .listing2 {
   margin-top: 4.4em;
+=======
+  margin-top: 5.7em;
+}
+
+#iphone7 .listing2 {
+  margin-top: 6.7em;
+>>>>>>> master
 }
 
 .icon_bar a {
