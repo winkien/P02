@@ -1581,7 +1581,7 @@ input[type=forminfo]:hover {
   margin-top: 1.4em;
 }
 
-@media screen and (max-width:2160px) {
+@media screen and (min-width:2160px) {
   #iphone_xs .listing2{
     margin-top: 7em;
   }
@@ -1590,6 +1590,24 @@ input[type=forminfo]:hover {
 @media screen and (max-width:2400px) {
   #iphone_xs .listing2{
     margin-top: 7.7em;
+  }
+}
+
+@media screen and (max-width:2700px) {
+  #iphone_xs .listing2{
+    margin-top: 8.4em;
+  }
+}
+
+@media screen and (max-width:2880px) {
+  #iphone_xs .listing2{
+    margin-top: 8.6em;
+  }
+}
+
+@media screen and (max-width:3100px) {
+  #iphone_xs .listing2{
+    margin-top: 9.1em;
   }
 }
 
@@ -1609,12 +1627,12 @@ input[type=forminfo]:hover {
   margin-top: 1em;
 }
 
-#iphone8 img {
-  margin-top: 2.4em;
+#iphone8 .listing2 {
+  margin-top: 3.5em;
 }
 
-#iphone7 img {
-  margin-top: 3.2em;
+#iphone7 .listing2 {
+  margin-top: 4.4em;
 }
 
 .icon_bar a {
