@@ -213,6 +213,7 @@ body {
 
 /* container2*/
 /* navigation bar at the top of the website*/
+
 .container, .navbar {
   width: 102%;
   margin: 0 auto;
@@ -1469,6 +1470,7 @@ input[type=forminfo]:hover {
 }
 
 /* home.html */
+@media screen and (max-width:2350px) and (min-width:1200px){
 .slogan .centered_slogan {
   position: absolute;
   top: 50%;
@@ -1523,8 +1525,9 @@ input[type=forminfo]:hover {
 
 .intro img {
   float: right;
+  }
 }
-
+@media screen and (max-width:2350px) and (min-width:800px){
 .intro {
   /* padding-bottom: 20em; */
   width: 80%;
@@ -1597,7 +1600,7 @@ input[type=forminfo]:hover {
   text-align: center;
   right: 55%;
 }
-
+}
 .form {
   margin-bottom: 5em;
 }
