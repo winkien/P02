@@ -1561,48 +1561,192 @@ input[type=forminfo]:hover {
 }
 
 /* home.html */
-.slogan .centered_slogan {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #737373;
+@media screen and (max-width: 4000px) and (min-width: 1500px){
+  .slogan .centered_slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #737373;
+  }
+
+  .slogan_button1 .button-nav {
+    position: absolute;
+    top: 70%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
+
+  .slogan_button2 .button-nav {
+    position: absolute;
+    top: 70%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
 }
 
-.slogan_button1 .button-nav {
-  position: absolute;
-  top: 70%;
-  left: 42%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
-  transition-property: background-color;
-  transition-duration: 0.5s;
+@media screen and (max-width: 1500px) and (min-width: 1000px){
+  .slogan .centered_slogan {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #737373;
+  }
+
+  .slogan_button1 .button-nav {
+    position: absolute;
+    top: 60%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
+
+  .slogan_button2 .button-nav {
+    position: absolute;
+    top: 60%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
 }
 
-.slogan_button2 .button-nav {
-  position: absolute;
-  top: 70%;
-  left: 58%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
-  transition-property: background-color;
-  transition-duration: 0.5s;
+@media screen and (max-width: 1000px) and (min-width: 900px){
+  .slogan .centered_slogan {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #737373;
+  }
+
+  .slogan_button1 .button-nav {
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
+
+  .slogan_button2 .button-nav {
+    position: absolute;
+    top: 50%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 200px){
+
+  .slogan{
+    background-color: #F9F1EF;
+  }
+  .slogan .centered_slogan {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #737373;
+  }
+
+  .slogan_button1 .button-nav {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
+
+  .slogan_button2 .button-nav {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
 }
 
 .slogan_button1 .button-nav:hover, .slogan_button2 .button-nav:hover, .sub1 button:hover {
@@ -1627,12 +1771,8 @@ input[type=forminfo]:hover {
     width: 50%;
   }
 
-  .sub1 .i5{
-    margin-top: -35em;
-  }
-
   .sub1 .i4{
-    margin-top: -2em;
+    margin-top: -35em;
   }
   .sub1 img{
     margin-left: 20em;
@@ -1644,17 +1784,34 @@ input[type=forminfo]:hover {
   margin: 10%;
 }
 
-@media screen and (max-width: 1400px) and (min-width: 1000px){
-  .sub1 .i5 {
-    margin-left: 20%;
-    margin-right: 20%;
+@media screen and (max-width: 1400px) and (min-width: 900px){
+
+  .sub1 img{
+    width: 100%;
   }
 
-  .sub1 button{
-
-    transform: translate(6em, 30em);
+  .sub1 button {
+    margin: -7em;
   }
 }
+
+@media screen and (max-width: 900px) and (min-width: 200px){
+
+  .sub1 img{
+    width: 100%;
+  }
+
+  .sub1 button {
+    margin: -7em;
+  }
+
+  .intro{
+    margin-top: 25em;
+  }
+}
+
+
+
 
 
 .sub1 i {
