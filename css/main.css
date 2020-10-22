@@ -36,6 +36,9 @@ body {
   padding: 2rem;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: grey;
   text-align: center;
 }
 
@@ -53,7 +56,14 @@ body {
   margin-bottom: 4rem;
 }
 
-
+.flex-item-left p {
+  font-family: Impact;
+  line-height: 3.3rem;
+  letter-spacing: 0.1em;
+  font-size: 65px;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.2rem;
+}
 
 .flex-item-left a {
   text-decoration: none;
@@ -67,8 +77,12 @@ body {
 
 .flex-item-right {
   font-family: Tahoma;
+  padding: 2rem;
   flex: 50% padding-bottom: 2rem;
   margin-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: grey;
   text-align: center;
 }
 
@@ -88,26 +102,7 @@ body {
   padding-bottom: 0.2rem;
   margin-bottom: 0.2rem;
 }
-.flex-container .flex-item-left h3{
-font-size: 2rem;
-  margin-left: 45rem;
-text-align: center;
-}
-.flex-container .flex-item-left h2{
-font-size: 3rem;
-}
-.flex-container .flex-item-left a{
-padding-left: 5rem;
-}
-.flex-container .flex-item-right p {
-  text-align: center;
-}
-.flex-container .flex-item-right {
-  margin-right: 22rem;
-  margin-top: 12rem;
-  padding-right: 5rem;
-  text-align: center;
-}
+
 .flex-item-right a {
   flex: 50%;
   text-decoration: none;
@@ -1505,9 +1500,6 @@ input[type=forminfo]:hover {
 
 .sub1 button {
   position: absolute;
-  left: 38%;
-  top: 199%;
-  background-color: #555;
   color: white;
   font-size: 16px;
   padding: 12px 24px;
@@ -1515,6 +1507,7 @@ input[type=forminfo]:hover {
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
+  right: 55%;
 }
 
 .form {
@@ -1593,6 +1586,24 @@ input[type=forminfo]:hover {
   }
 }
 
+@media screen and (max-width:2700px) {
+  #iphone_xs .listing2{
+    margin-top: 8.4em;
+  }
+}
+
+@media screen and (max-width:2880px) {
+  #iphone_xs .listing2{
+    margin-top: 8.6em;
+  }
+}
+
+@media screen and (max-width:3100px) {
+  #iphone_xs .listing2{
+    margin-top: 9.1em;
+  }
+}
+
 .listing2 a {
   color: #737373;
 }
@@ -1609,12 +1620,12 @@ input[type=forminfo]:hover {
   margin-top: 1em;
 }
 
-#iphone8 img {
-  margin-top: 2.4em;
+#iphone8 .listing2 {
+  margin-top: 3.5em;
 }
 
-#iphone7 img {
-  margin-top: 3.2em;
+#iphone7 .listing2 {
+  margin-top: 4.4em;
 }
 
 .icon_bar a {
