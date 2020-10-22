@@ -25,6 +25,97 @@
 body {
   font-family:"Verdana Light", sans-serif;
 }
+* {
+  box-sizing: border-box;
+}
+.flex-item-left {
+  flex: 50%;
+  font-family: Tahoma;
+  padding: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: grey;
+  text-align: center;
+}
+.flex-item-right h3{
+  flex: 50%;
+  font-size: 1.2rem;
+  font-family: Tahoma;
+  font-weight: normal;
+}
+
+.flex-item-left h2 {
+    flex: 50%;
+  font-size: 4rem;
+padding-right: 40rem;
+margin-bottom: 4rem;
+
+}
+.flex-item-left p{
+  font-family: Impact;
+  line-height: 3.3rem;
+  letter-spacing: 0.1em;
+  font-size: 65px;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+.flex-item-left a{
+text-decoration: none;
+color: grey;
+}
+.flex-item-left a:hover{
+text-decoration: none;
+color: black;
+}
+
+.flex-item-right {
+  font-family: Tahoma;
+  padding: 2rem;
+  flex: 50%
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: grey;
+  text-align: center;
+}
+
+.flex-item-right h2{
+    flex: 50%;
+  font-size: 4rem;
+padding-right: 40rem;
+margin-bottom: 4rem;
+
+}
+.flex-item-right p{
+    flex: 50%;
+  font-family: Impact;
+  line-height: 3.3rem;
+  letter-spacing: 0.1em;
+  font-size: 65px;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+.flex-item-right a{
+    flex: 50%;
+text-decoration: none;
+color: grey;
+}
+.flex-item-right a:hover{
+    flex: 50%;
+text-decoration: none;
+color: black;
+}
+
+.flex-container {
+
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
 
 /* navigation bar at the top of the website*/
 .container, .navbar {
