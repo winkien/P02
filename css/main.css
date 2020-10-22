@@ -29,7 +29,57 @@ body {
 * {
   box-sizing: border-box;
 }
+.elementbv{
+  background-color: black;
+}
+.element1v {
+  color:white;
+  background-color: white;
+  font-family: Impact;
 
+}
+.element1v p{
+  font-family: Lucida Grande;
+    font-size: 2rem;
+  text-align: center;
+}
+.element3v a {
+  display:block;
+margin-left: 25rem;
+margin-bottom: 2rem;
+  margin-right: auto;
+  width:100%
+
+}
+.element2v p {
+    font-family: Lucida Grande;
+    color:white;
+  font-size: 35px;
+
+    text-align: center;
+}
+.element3v p{
+  font-family: impact;
+  font-size: 105px;
+  color:white;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.2rem;
+  text-align: center;
+}
+.element4v a{
+font-family: verdana;
+text-decoration: none;
+font-size: 23px;
+  margin-left: 42.5%;
+  color:grey;
+
+}
+
+
+.element4v a:hover{
+text-decoration: none;
+color: white;
+}
 .flex-item-left {
   flex: 50%;
   font-family: Tahoma;
@@ -121,6 +171,8 @@ body {
   font-size: 30px;
   text-align: center;
 }
+
+/* container2*/
 
 /* navigation bar at the top of the website*/
 .container, .navbar {
