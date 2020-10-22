@@ -34,17 +34,20 @@ body {
 .flex-item-left {
   flex: 50%;
   font-family: Tahoma;
+  font-size: 1rem;
   padding: 2rem;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
-  border-top-width: 0.15rem;
-  border-top-style: solid;
-  border-top-color: grey;
-  text-align: center;
+  margin-left: 10%;
 }
-
+.flex-item-left h3 {
+  text-align: center;
+  font-size: 2rem;
+  padding-left: 40%;
+}
 .flex-item-right h3 {
   flex: 50%;
+  text-align: center;
   font-size: 1.2rem;
   font-family: Tahoma;
   font-weight: normal;
@@ -52,7 +55,7 @@ body {
 
 .flex-item-left h2 {
   flex: 50%;
-  font-size: 4rem;
+  font-size: 1rem;
   padding-right: 40rem;
   margin-bottom: 4rem;
 }
@@ -79,18 +82,17 @@ body {
 .flex-item-right {
   font-family: Tahoma;
   padding: 2rem;
-  flex: 50% padding-bottom: 2rem;
+  font-size: 1rem;
+  flex: 50%
+  padding-bottom: 2rem;
   margin-bottom: 2rem;
-  border-top-width: 0.15rem;
-  border-top-style: solid;
-  border-top-color: grey;
   text-align: center;
+  margin-right: 50%;
 }
 
 .flex-item-right h2 {
   flex: 50%;
   font-size: 4rem;
-  padding-right: 40rem;
   margin-bottom: 4rem;
 }
 
@@ -98,10 +100,7 @@ body {
   flex: 50%;
   font-family: Impact;
   line-height: 3.3rem;
-  letter-spacing: 0.1em;
-  font-size: 65px;
-  padding-bottom: 0.2rem;
-  margin-bottom: 0.2rem;
+  text-align: center;
 }
 
 .flex-item-right a {
