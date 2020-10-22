@@ -934,12 +934,21 @@ input[type=forminfo]:hover {
   padding-bottom: 2em;
 }
 
-@media screen and (max-width:1350px)and (min-width:1000px) {
+@media screen and (max-width:1550px)and (min-width:1000px) {
   .total {
     max-width: 1000px;
     margin: auto;
     margin-left: -60em;
     margin-top: 5em;
+    width: 100%;
+  }
+
+  .total .total-button1{
+    margin-left:15em;
+  }
+
+  .total .total-button2{
+    margin-left:15em;
   }
 
   .checkout {
@@ -952,13 +961,21 @@ input[type=forminfo]:hover {
   }
 }
 
-@media screen and (max-width:1000px)and (min-width:600px) {
+@media screen and (max-width:1000px)and (min-width:800px) {
   .total {
     max-width: 1000px;
     margin: auto;
     margin-left: -60em;
     margin-top: 5em;
     width: 100%;
+  }
+
+  .total .total-button1{
+    margin-left:4em;
+  }
+
+  .total .total-button2{
+    margin-left:4em;
   }
 
   .form {
@@ -991,16 +1008,75 @@ input[type=forminfo]:hover {
   }
 }
 
-@media screen and (max-width:600px) {
+
+@media screen and (max-width:800px)and (min-width:600px) {
+  .total {
+    max-width: 1000px;
+    margin: auto;
+    margin-left: -60em;
+    margin-top: 5em;
+    width: 100%;
+    padding-bottom: 6em;
+  }
+
+  .total .total-button1{
+    margin-left:5.5em;
+  }
+
+  .total .total-button2{
+    margin-left:-6em;
+    margin-top: 3em;
+  }
+
+  .form {
+    margin-top: 35em;
+  }
+
+  .checkout {
+    margin: auto;
+    width: 80%;
+  }
+
+  .checkout .text {
+    margin-top: 22em;
+    margin-left: -55em;
+    margin-bottom: 2em;
+  }
+
+  .checkout .item {
+    margin-left: 15%;
+  }
+
+  .checkout .text2 {
+    margin-top: 22em;
+    margin-left: -59em;
+    margin-bottom: 2em;
+  }
+
+  .checkout .item2 {
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width:600px) and (min-width: 200px) {
   .total {
     max-width: 1000px;
     margin: auto;
     margin-top: 5em;
     width: 100%;
+    padding-bottom: 6em;
   }
 
+  .total .total-button1{
+    margin-left:1.5em;
+  }
+
+  .total .total-button2{
+    margin-left:-10em;
+    margin-top: 3em;
+  }
   .form {
-    margin-top: 30em;
+    margin-top: 36em;
   }
 
   .checkout {
