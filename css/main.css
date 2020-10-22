@@ -404,14 +404,19 @@ code {
 
 .button-nav {
   display: inline-block;
-  padding: 0.5rem;
-  color: white;
-  background-color: #4f4f4f;
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
   margin-bottom: 1em;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 1em;
 }
 
 /* submit/reset buttons */
@@ -681,7 +686,7 @@ p {
   background-color: #4dffa9;
 }
 
-#iphone12 .circle2, #iphone11 .circle2, #iphone_xr .circle1 {
+#iphone12 .circle2, #iphone11 .circle2, #iphone_xr .circle1, .listing .circle1 {
   height: 25px;
   width: 25px;
   background-color: #ff9999;
@@ -689,7 +694,7 @@ p {
   display: inline-block;
 }
 
-#iphone12 .circle2:hover, #iphone11 .circle2:hover, #iphone_xr .circle1:hover {
+#iphone12 .circle2:hover, #iphone11 .circle2:hover, #iphone_xr .circle1:hover, .listing .circle1:hover {
   background-color: #ff0000;
 }
 
@@ -768,7 +773,7 @@ p {
   border: 2px solid #4f4f4f;
 }
 
-#iphone_xr .circle2 {
+#iphone_xr .circle2, .listing .circle2 {
   height: 25px;
   width: 25px;
   background-color: #ffc6b3;
@@ -776,11 +781,11 @@ p {
   display: inline-block;
 }
 
-#iphone_xr .circle2:hover {
+#iphone_xr .circle2:hover, .listing .circle2:hover {
   background-color: #ff7d52;
 }
 
-#iphone_xr .circle3 {
+#iphone_xr .circle3, .listing .circle3 {
   height: 25px;
   width: 25px;
   background-color: #b3ecff;
@@ -788,11 +793,11 @@ p {
   display: inline-block;
 }
 
-#iphone_xr .circle3:hover {
+#iphone_xr .circle3:hover, .listing .circle3:hover {
   background-color: #33ccff;
 }
 
-#iphone_xr .circle4, #iphone8 .circle2 {
+#iphone_xr .circle4, #iphone8 .circle2, .listing .circle4 {
   height: 25px;
   width: 25px;
   background-color: #2f2f2f;
@@ -851,12 +856,26 @@ p {
   margin-top: 10px;
 }
 
+#combined_elements .form {
+  margin-top: 0em;
+}
+
 input[type=forminfo]:hover {
   background-color: #eaeef1;
 }
 
 .form button {
-  padding-bottom: 1em;
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 1em;
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
 
 .form h3 {
@@ -932,6 +951,12 @@ input[type=forminfo]:hover {
   margin-top: -45em;
   padding-top: 1em;
   padding-bottom: 2em;
+}
+
+@media screen and (max-width:1500px) {
+  #components {
+    margin-top: 30em;
+  }
 }
 
 @media screen and (max-width:1550px)and (min-width:1000px) {
@@ -1153,6 +1178,8 @@ input[type=forminfo]:hover {
   text-align: center;
   margin-top: -1em;
   /* margin-right: 1em; */
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
 
 .total-button2 {
@@ -1168,6 +1195,8 @@ input[type=forminfo]:hover {
   text-align: center;
   margin-top: -1em;
   margin-right: -10em;
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
 
 .total-button:hover {
@@ -1560,6 +1589,8 @@ input[type=forminfo]:hover {
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
 
 .slogan_button2 .button-nav {
@@ -1576,6 +1607,8 @@ input[type=forminfo]:hover {
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
 
 .slogan_button1 .button-nav:hover, .slogan_button2 .button-nav:hover, .sub1 button:hover {
@@ -1666,8 +1699,10 @@ input[type=forminfo]:hover {
   border-radius: 5px;
   text-align: center;
   right: 55%;
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
-}
+
 .form {
   margin-bottom: 5em;
 }
@@ -1766,7 +1801,7 @@ input[type=forminfo]:hover {
   color: #737373;
 }
 
-.listing2 button {
+.listing2 button, .listing button {
   background-color: #555;
   color: white;
   font-size: 16px;
@@ -1776,6 +1811,8 @@ input[type=forminfo]:hover {
   border-radius: 5px;
   text-align: center;
   margin-top: 1em;
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
 
 #iphone8 .listing2 {
