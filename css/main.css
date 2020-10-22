@@ -30,20 +30,7 @@ body {
   box-sizing: border-box;
 }
 
-.elementbv {
-  background-color: black;
-}
-
-.element1v {
-  color: white;
-  background-color: white;
-  font-family: Impact;
-}
-
-.element ui {
-  padding-left: 45rem;
-}
-
+/* about page  */
 .banner3 .slogan .slogan_sentece h1 {
   Color: white;
   margin-left: 5em;
@@ -56,22 +43,21 @@ body {
   margin-bottom: 2em;
 }
 
-.idea-q h3 {
-  color: #aaa;
-  font-family: "Century Gothic Light", sans-serif;
-}
-
-.idea-a p {
-  color: #4f4f4f;
-  padding-bottom: 2em;
-  line-height: 2rem;
-  text-align: justify;
-}
-
 .about1{
   width: 80%;
   margin:10%;
   float: center;
+}
+
+/* event page */
+.elementbv {
+  background-color: black;
+}
+
+.element1v {
+  color: white;
+  background-color: white;
+  font-family: Impact;
 }
 
 .element1v p {
@@ -82,6 +68,9 @@ body {
   padding-bottom: 1rem;
   text-align: center;
 }
+
+
+
 
 .element3v a {
   display: block;
@@ -1121,6 +1110,8 @@ input[type=forminfo]:hover {
   color: #4f4f4f;
   padding-bottom: 2em;
   text-align: justify;
+  line-height: 2em;
+
 }
 
 /* end of BRANDING_IDEA */
@@ -1665,7 +1656,7 @@ input[type=forminfo]:hover {
   margin-top: 1.4em;
 }
 
-<<<<<<< HEAD @media screen and (max-width:2160px) {
+@media screen and (max-width:2160px) {
   #iphone_xs .listing2 {
     margin-top: 7em;
   }
@@ -1695,7 +1686,7 @@ input[type=forminfo]:hover {
   }
 }
 
-=======>>>>>>>master .listing2 a {
+.listing2 a {
   color: #737373;
 }
 
@@ -1712,17 +1703,16 @@ input[type=forminfo]:hover {
 }
 
 #iphone8 .listing2 {
-  <<<<<<< HEAD margin-top: 3.5em;
+  margin-top: 3.5em;
 }
 
 #iphone7 .listing2 {
   margin-top: 4.4em;
-  =======margin-top: 5.7em;
+  margin-top: 5.7em;
 }
 
 #iphone7 .listing2 {
   margin-top: 6.7em;
-  >>>>>>>master
 }
 
 .icon_bar a {
