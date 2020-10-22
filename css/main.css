@@ -1500,9 +1500,6 @@ input[type=forminfo]:hover {
 
 .sub1 button {
   position: absolute;
-  left: 38%;
-  top: 199%;
-  background-color: #555;
   color: white;
   font-size: 16px;
   padding: 12px 24px;
@@ -1510,6 +1507,7 @@ input[type=forminfo]:hover {
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
+  right: 55%;
 }
 
 .form {
