@@ -657,7 +657,7 @@ p {
   background-color: #b399ff;
 }
 
-#iphone_xs .circle1{
+#iphone_xs .circle1, #iphone8 .circle1, #iphone7 .circle1, #iphone6 .circle1{
   height: 25px;
   width: 25px;
   background-color: #fff2cc;
@@ -665,11 +665,11 @@ p {
   display: inline-block;
 }
 
-#iphone_xs .circle1:hover{
+#iphone_xs .circle1:hover, #iphone8 .circle1:hover, #iphone7 .circle1:hover, #iphone6 .circle1:hover{
   background-color: #ffd24d;
 }
 
-#iphone_xs .circle2{
+#iphone_xs .circle2, #iphone7 .circle2{
   height: 25px;
   width: 25px;
   background-color: #ddd;
@@ -677,7 +677,7 @@ p {
   display: inline-block;
 }
 
-#iphone_xs .circle2:hover{
+#iphone_xs .circle2:hover, #iphone7 .circle2:hover{
   background-color: #737373;
 }
 
@@ -693,11 +693,57 @@ p {
 #iphone_xr .circle2 {
   height: 25px;
   width: 25px;
-  background-color: #fff;
+  background-color: #ffc6b3 ;
   border-radius: 50%;
   display: inline-block;
 }
 
+#iphone_xr .circle2:hover{
+  background-color: #ff7d52;
+}
+
+#iphone_xr .circle3{
+  height: 25px;
+  width: 25px;
+  background-color: #b3ecff ;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#iphone_xr .circle3:hover{
+  background-color: #33ccff;
+}
+
+#iphone_xr .circle4, #iphone8 .circle2{
+  height: 25px;
+  width: 25px;
+  background-color: #2f2f2f;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid #999;
+}
+
+#iphone8 .circle3, #iphone6 .circle3{
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid #ddd;
+}
+
+#iphone8 .circle3:hover, #iphone6 .circle3:hover{
+  background-color: #fff;
+}
+
+#iphone7 .circle3, #iphone6 .circle2{
+  height: 25px;
+  width: 25px;
+  background-color: #fde7e7;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid #737373;
+}
 
 .carrier, .payment {
   display: inline;
