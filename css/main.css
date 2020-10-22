@@ -1363,6 +1363,10 @@ input[type=forminfo]:hover {
   text-align: center;
 }
 
+.form {
+  margin-bottom: 5em;
+}
+
 /* product page */
 .banner2 h1{
   position: absolute;
