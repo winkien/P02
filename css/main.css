@@ -30,20 +30,7 @@ body {
   box-sizing: border-box;
 }
 
-.elementbv {
-  background-color: black;
-}
-
-.element1v {
-  color: white;
-  background-color: white;
-  font-family: Impact;
-}
-
-.element ui {
-  padding-left: 45rem;
-}
-
+/* about page  */
 .banner3 .slogan .slogan_sentece h1 {
   Color: white;
   margin-left: 5em;
@@ -52,26 +39,25 @@ body {
 
 .banner3 .slogan .slogan_sentece p {
   Color: white;
-  margin-left:10em;
+  margin-left: 10em;
   margin-bottom: 2em;
 }
 
-.idea-q h3 {
-  color: #aaa;
-  font-family: "Century Gothic Light", sans-serif;
-}
-
-.idea-a p {
-  color: #4f4f4f;
-  padding-bottom: 2em;
-  line-height: 2rem;
-  text-align: justify;
-}
-
-.about1{
+.about1 {
   width: 80%;
-  margin:10%;
+  margin: 10%;
   float: center;
+}
+
+/* event page */
+.elementbv {
+  background-color: black;
+}
+
+.element1v {
+  color: white;
+  background-color: white;
+  font-family: Impact;
 }
 
 .element1v p {
@@ -212,7 +198,6 @@ padding-left: 45%;
 
 /* container2*/
 /* navigation bar at the top of the website*/
-
 .container, .navbar {
   width: 102%;
   margin: 0 auto;
@@ -421,14 +406,19 @@ code {
 
 .button-nav {
   display: inline-block;
-  padding: 0.5rem;
-  color: white;
-  background-color: #4f4f4f;
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
   margin-bottom: 1em;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 1em;
 }
 
 /* submit/reset buttons */
@@ -698,7 +688,7 @@ p {
   background-color: #4dffa9;
 }
 
-#iphone12 .circle2, #iphone11 .circle2, #iphone_xr .circle1 {
+#iphone12 .circle2, #iphone11 .circle2, #iphone_xr .circle1, .listing .circle1 {
   height: 25px;
   width: 25px;
   background-color: #ff9999;
@@ -706,7 +696,7 @@ p {
   display: inline-block;
 }
 
-#iphone12 .circle2:hover, #iphone11 .circle2:hover, #iphone_xr .circle1:hover {
+#iphone12 .circle2:hover, #iphone11 .circle2:hover, #iphone_xr .circle1:hover, .listing .circle1:hover {
   background-color: #ff0000;
 }
 
@@ -785,7 +775,7 @@ p {
   border: 2px solid #4f4f4f;
 }
 
-#iphone_xr .circle2 {
+#iphone_xr .circle2, .listing .circle2 {
   height: 25px;
   width: 25px;
   background-color: #ffc6b3;
@@ -793,11 +783,11 @@ p {
   display: inline-block;
 }
 
-#iphone_xr .circle2:hover {
+#iphone_xr .circle2:hover, .listing .circle2:hover {
   background-color: #ff7d52;
 }
 
-#iphone_xr .circle3 {
+#iphone_xr .circle3, .listing .circle3 {
   height: 25px;
   width: 25px;
   background-color: #b3ecff;
@@ -805,11 +795,11 @@ p {
   display: inline-block;
 }
 
-#iphone_xr .circle3:hover {
+#iphone_xr .circle3:hover, .listing .circle3:hover {
   background-color: #33ccff;
 }
 
-#iphone_xr .circle4, #iphone8 .circle2 {
+#iphone_xr .circle4, #iphone8 .circle2, .listing .circle4 {
   height: 25px;
   width: 25px;
   background-color: #2f2f2f;
@@ -868,12 +858,26 @@ p {
   margin-top: 10px;
 }
 
+#combined_elements .form {
+  margin-top: 0em;
+}
+
 input[type=forminfo]:hover {
   background-color: #eaeef1;
 }
 
 .form button {
-  padding-bottom: 1em;
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 1em;
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
 
 .form h3 {
@@ -951,12 +955,27 @@ input[type=forminfo]:hover {
   padding-bottom: 2em;
 }
 
-@media screen and (max-width:1350px)and (min-width:1000px) {
+@media screen and (max-width:1500px) {
+  #components {
+    margin-top: 30em;
+  }
+}
+
+@media screen and (max-width:1550px)and (min-width:1000px) {
   .total {
     max-width: 1000px;
     margin: auto;
     margin-left: -60em;
     margin-top: 5em;
+    width: 100%;
+  }
+
+  .total .total-button1 {
+    margin-left: 15em;
+  }
+
+  .total .total-button2 {
+    margin-left: 15em;
   }
 
   .checkout {
@@ -969,13 +988,21 @@ input[type=forminfo]:hover {
   }
 }
 
-@media screen and (max-width:1000px)and (min-width:600px) {
+@media screen and (max-width:1000px)and (min-width:800px) {
   .total {
     max-width: 1000px;
     margin: auto;
     margin-left: -60em;
     margin-top: 5em;
     width: 100%;
+  }
+
+  .total .total-button1 {
+    margin-left: 4em;
+  }
+
+  .total .total-button2 {
+    margin-left: 4em;
   }
 
   .form {
@@ -1008,16 +1035,75 @@ input[type=forminfo]:hover {
   }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px)and (min-width:600px) {
+  .total {
+    max-width: 1000px;
+    margin: auto;
+    margin-left: -60em;
+    margin-top: 5em;
+    width: 100%;
+    padding-bottom: 6em;
+  }
+
+  .total .total-button1 {
+    margin-left: 5.5em;
+  }
+
+  .total .total-button2 {
+    margin-left: -6em;
+    margin-top: 3em;
+  }
+
+  .form {
+    margin-top: 35em;
+  }
+
+  .checkout {
+    margin: auto;
+    width: 80%;
+  }
+
+  .checkout .text {
+    margin-top: 22em;
+    margin-left: -55em;
+    margin-bottom: 2em;
+  }
+
+  .checkout .item {
+    margin-left: 15%;
+  }
+
+  .checkout .text2 {
+    margin-top: 22em;
+    margin-left: -59em;
+    margin-bottom: 2em;
+  }
+
+  .checkout .item2 {
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width:600px) and (min-width: 200px) {
   .total {
     max-width: 1000px;
     margin: auto;
     margin-top: 5em;
     width: 100%;
+    padding-bottom: 6em;
+  }
+
+  .total .total-button1 {
+    margin-left: 1.5em;
+  }
+
+  .total .total-button2 {
+    margin-left: -10em;
+    margin-top: 3em;
   }
 
   .form {
-    margin-top: 30em;
+    margin-top: 36em;
   }
 
   .checkout {
@@ -1094,6 +1180,8 @@ input[type=forminfo]:hover {
   text-align: center;
   margin-top: -1em;
   /* margin-right: 1em; */
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
 
 .total-button2 {
@@ -1109,6 +1197,8 @@ input[type=forminfo]:hover {
   text-align: center;
   margin-top: -1em;
   margin-right: -10em;
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
 
 .total-button:hover {
@@ -1127,6 +1217,7 @@ input[type=forminfo]:hover {
   color: #4f4f4f;
   padding-bottom: 2em;
   text-align: justify;
+  line-height: 2em;
 }
 
 /* end of BRANDING_IDEA */
@@ -1485,48 +1576,192 @@ color:#b3b3b3;
 }
 
 /* home.html */
-@media screen and (max-width:2350px) and (min-width:1200px){
-.slogan .centered_slogan {
-  position: absolute;
-  text-align: center;
-  font-size: 3rem;
-line-height: 7rem;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #737373;
+@media screen and (max-width: 4000px) and (min-width: 1500px){
+  .slogan .centered_slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #737373;
+  }
+
+  .slogan_button1 .button-nav {
+    position: absolute;
+    top: 70%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
+
+  .slogan_button2 .button-nav {
+    position: absolute;
+    top: 70%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
 }
 
-.slogan_button1 .button-nav {
-  position: absolute;
-  top: 70%;
-  left: 42%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #c65353;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
+@media screen and (max-width: 1500px) and (min-width: 1000px){
+  .slogan .centered_slogan {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #737373;
+  }
+
+  .slogan_button1 .button-nav {
+    position: absolute;
+    top: 60%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
+
+  .slogan_button2 .button-nav {
+    position: absolute;
+    top: 60%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
 }
 
-.slogan_button2 .button-nav {
-  position: absolute;
-  top: 70%;
-  left: 58%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #c65353;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
+@media screen and (max-width: 1000px) and (min-width: 900px){
+  .slogan .centered_slogan {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #737373;
+  }
+
+  .slogan_button1 .button-nav {
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
+
+  .slogan_button2 .button-nav {
+    position: absolute;
+    top: 50%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 200px){
+
+  .slogan{
+    background-color: #F9F1EF;
+  }
+  .slogan .centered_slogan {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #737373;
+  }
+
+  .slogan_button1 .button-nav {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
+
+  .slogan_button2 .button-nav {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
 }
 
 .slogan_button1 .button-nav:hover, .slogan_button2 .button-nav:hover{
@@ -1545,54 +1780,58 @@ line-height: 7rem;
   text-decoration: none;
 }
 
-.intro img {
-  float: right;
+@media screen and (max-width: 4000px) and (min-width: 1400px){
+  .intro img {
+    float: right;
+    margin-bottom: 10em;
+  }
+
+  .sub1 .i1, .i2, .i3{
+    width: 50%;
+  }
+
+  .sub1 .i4{
+    margin-top: -35em;
+  }
+  .sub1 img{
+    margin-left: 20em;
   }
 }
-@media screen and (max-width:2350px) and (min-width:800px){
+
 .intro {
-  /* padding-bottom: 20em; */
   width: 80%;
-  margin: 10em;
+  margin: 10%;
 }
 
-.sub1 ul {
-  height: 36em;
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+@media screen and (max-width: 1400px) and (min-width: 900px){
+
+  .sub1 img{
+    width: 100%;
+  }
+
+  .sub1 button {
+    margin: -7em;
+  }
 }
 
-.sub1 li {
-  width: 50%;
+@media screen and (max-width: 900px) and (min-width: 200px){
+
+  .sub1 img{
+    width: 100%;
+  }
+
+  .sub1 button {
+    margin: -7em;
+  }
+
+  .intro{
+    margin-top: 25em;
+  }
 }
 
-.sub1 li:nth-child(1) {
-  /* background: #ffe6e6; */
-  flex: 0 0 33.33%;
-}
 
-.sub1 li:nth-child(2) {
-  /* background: #30BB75; */
-  flex: 0 0 33.33%;
-}
 
-.sub1 li:nth-child(3) {
-  /* background: #BB3047; */
-  flex: 0 0 33.33%;
-}
 
-.sub1 li:nth-child(4) {
-  flex: 0 0 100%;
-  /* background: #305EBB; */
-}
 
 .sub1 i {
   margin-left: 1em;
@@ -1621,9 +1860,11 @@ line-height: 7rem;
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
-  right: 47%;
+  right: 55%;
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
-}
+
 .form {
   margin-bottom: 5em;
 }
@@ -1688,7 +1929,7 @@ line-height: 7rem;
   margin-top: 1.4em;
 }
 
-<<<<<<< HEAD @media screen and (max-width:2160px) {
+@media screen and (max-width:2160px) {
   #iphone_xs .listing2 {
     margin-top: 7em;
   }
@@ -1718,11 +1959,11 @@ line-height: 7rem;
   }
 }
 
-=======>>>>>>>master .listing2 a {
+.listing2 a {
   color: #737373;
 }
 
-.listing2 button {
+.listing2 button, .listing button {
   background-color: #555;
   color: white;
   font-size: 16px;
@@ -1732,20 +1973,21 @@ line-height: 7rem;
   border-radius: 5px;
   text-align: center;
   margin-top: 1em;
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
 
 #iphone8 .listing2 {
-  <<<<<<< HEAD margin-top: 3.5em;
+  margin-top: 3.5em;
 }
 
 #iphone7 .listing2 {
   margin-top: 4.4em;
-  =======margin-top: 5.7em;
+  margin-top: 5.7em;
 }
 
 #iphone7 .listing2 {
   margin-top: 6.7em;
-  >>>>>>>master
 }
 
 .icon_bar a {
