@@ -98,17 +98,19 @@ body {
 }
 
 /* event page */
-.elementbv {
-  background-color: black;
+.event_info1 {
+  background-color: #f2f2f2;
+  width: 105%;
+  margin-left: -0.5em;
 }
 
-.element1v {
-  color: white;
-  background-color: white;
-  font-family: Impact;
+.event_info2 {
+  background-color: #ff8b02;
+  width: 105%;
+  margin-left: -0.5em;
 }
 
-.element1v p {
+.event_banner .element1v p{
   font-family: Verdana;
   color: grey;
   font-size: 0.8rem;
@@ -117,39 +119,69 @@ body {
   text-align: center;
 }
 
-.element3v a {
+.event_info1 .element1 .month p{
+  text-align: center;
+  margin-bottom: -1em;
+}
+
+.event_info1 .element1 h1 {
+  font-family: impact;
+  font-size: 45px;
+  color: #737373;
+  margin-bottom: -1em;
+  text-align: center;
+}
+
+.event_info2 .element1 .month p{
+  text-align: center;
+  margin-bottom: -1em;
+}
+
+.event_info2 .element1 h1 {
+  font-family: impact;
+  font-size: 45px;
+  color: #fff;
+  margin-bottom: -1em;
+  text-align: center;
+}
+
+.event_info1 img {
   display: block;
-  margin-bottom: 2rem;
+  margin-bottom: 1em;
+  margin-right: auto;
+  width: 100%
+}
+
+.event_info2 img {
+  display: block;
+  margin-bottom: 2em;
   margin-right: auto;
   width: 100%
 }
 
 .element2v p {
-  font-family: Tahoma;
   color: #c65353;
   font-size: 17px;
   text-align: center;
 }
 
-.element3v p {
-  font-family: impact;
-  font-size: 45px;
-  color: white;
-  padding-bottom: 0.2rem;
-  margin-bottom: 0.2rem;
-  text-align: center;
-}
-
-.element4v a {
+.event_info1 .element2v a {
   font-family: verdana;
   font-size: 15px;
-  padding-left: 45%;
-  color: grey;
+  color: #999;
+  text-decoration: none;
 }
 
-.element4v a:hover {
+.event_info2 .element2v a {
+  font-family: verdana;
+  font-size: 15px;
+  color: #f2f2f2;
   text-decoration: none;
-  color: white;
+}
+
+.element2v a:hover {
+  text-decoration: underline;
+  color: #4f4f4f;
 }
 
 .flex-item-left {
@@ -1578,9 +1610,9 @@ input[type=forminfo]:hover {
   flex-flow: row wrap;
   padding: 2em;
   background-color: #1a1a1a;
-  margin-left: -0.8em;
+  margin-left: -0.5em;
   margin-top: -1.2em;
-  width: 102%;
+  width: 105%;
   padding-right: 4em;
   padding-left: 4em;
 }
