@@ -1985,20 +1985,72 @@ input[type=forminfo]:hover {
 }
 
 /* product page */
-.banner2 h1 {
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #4f4f4f;
+.banner2 .slogan{
+  background-color: #000;
+  width: 105%;
+  margin-left: -0.5em;
 }
 
-.banner2 p {
-  position: absolute;
-  top: 23%;
-  left: 53.5%;
-  transform: translate(-50%, -50%);
-  color: #4f4f4f;
+.banner2 .slogan img{
+  width: 40%;
+  margin-bottom: -1.5em;
+}
+
+.banner2 h1 {
+    position: absolute;
+    top: 25%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    color: #f2f2f2;
+  }
+
+  .banner2 p {
+    position: absolute;
+    top: 35%;
+    left: 56.5%;
+    transform: translate(-50%, -50%);
+    color: #f2f2f2;
+  }
+
+@media screen and (max-width: 800px) and (min-width: 200px){
+  .banner2 .slogan img{
+    width: 100%;
+  }
+
+  .banner2 .slogan{
+    padding-top: 20em;
+  }
+
+  .banner2 h1{
+    position: absolute;
+    text-align:center;
+    top: 20%;
+    left: 50%;
+  }
+
+  .banner2 p{
+    position: absolute;
+    text-align: center;
+    top: 38%;
+    left: 50%;
+    width: 80%;
+  }
+
+  .product_list{
+    width: 80%;
+    margin-left: 15%;
+  }
+
+  #iphone11 {
+    margin-left: 1em;
+  }
+
+  #iphone8 {
+    margin-left: -0.5em;
+  }
+  #iphone7{
+    margin-left: 1em;
+  }
 }
 
 .icon_bar nav ul {
@@ -2029,7 +2081,7 @@ input[type=forminfo]:hover {
 .icon_bar img:hover {
   color: #737373;
   transition: transform 0.5s;
-  border-bottom: 1px solid #737373;
+  /* border-bottom: 1px solid #737373; */
 }
 
 .product_list {
