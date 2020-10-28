@@ -311,7 +311,6 @@ body {
   text-align: center;
 }
 
-/* container2*/
 /* navigation bar at the top of the website*/
 .container, .navbar {
   width: 102.5%;
@@ -336,8 +335,6 @@ body {
   height: 44px;
   justify-content: space-between;
   align-items: center;
-  /* padding-top: 0.4rem; */
-  /* padding-left: 7rem; */
   margin: 0;
   list-style-type: none;
   margin-left: 5%;
@@ -346,12 +343,10 @@ body {
 
 .container nav li {
   float: left;
-  /* padding-right: 9rem; */
 }
 
 .container nav input {
   margin-top: 1.1rem;
-  /* margin-left: -10rem; */
 }
 
 .container nav li h2 {
@@ -370,11 +365,6 @@ body {
   font-family: Verdana;
   text-align: center;
   color: #cccccc;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
 }
 
 .container nav li :hover {
