@@ -2142,61 +2142,65 @@ input[type=forminfo]:hover {
 }
 
 /* product page */
-.banner2 .slogan {
-  background-color: #000;
-  width: 105%;
-  margin-left: -0.5em;
-}
-
-.banner2 .slogan img {
-  width: 40%;
-  margin-bottom: -1.5em;
-}
-
-.banner2 h1 {
-  position: absolute;
-  top: 20%;
-  left: 53%;
-  transform: translate(-50%, -50%);
-  color: #f2f2f2;
-}
-
-.banner2 p {
-  position: absolute;
-  top: 30%;
-  left: 57.5%;
-  transform: translate(-50%, -50%);
-  color: #f2f2f2;
-}
-
-@media screen and (max-width: 1200px) and (min-width: 200px){
+@media screen and (max-width: 4000px) and (min-width: 900px){
   .banner2 .slogan {
     background-color: #000;
     width: 105%;
     margin-left: -0.5em;
-    padding-top: 10em;
+  }
+
+  .banner2 .slogan img {
+    width: 40%;
+    margin-bottom: -1.5em;
+    margin-left: 50%;
   }
 
   .banner2 h1 {
     position: absolute;
-    top: 20%;
-    left: 53%;
+    margin-top: -5em;
+    margin-left: 10em;
     transform: translate(-50%, -50%);
     color: #f2f2f2;
-    text-align: center;
   }
 
-  .banner2 p {
+  .banner2 h5 {
     position: absolute;
-    top: 30%;
-    left: 57.5%;
+    margin-top:-6em;
+    margin-left: 25em;
     transform: translate(-50%, -50%);
     color: #f2f2f2;
-    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 200px){
+  .banner2 .slogan {
+    background-color: #000;
+    width: 105%;
+    margin-left: -0.5em;
+    padding-top: 15em;
+  }
+
+  .banner2 h1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #f2f2f2;
+    top:15%;
+    left: 60%;
+    width: 70%;
+  }
+
+  .banner2 h5 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #f2f2f2;
+    top: 25%;
+    left: 50%;
   }
 
   .banner2 .slogan img {
     width: 100%;
+    margin-bottom: -1.5em;
   }
 }
 
