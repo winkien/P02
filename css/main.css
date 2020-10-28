@@ -144,7 +144,7 @@ body {
   margin-left: -0.5em;
 }
 
-.event_banner .element1v p{
+.event_banner .element1v p {
   font-family: Verdana;
   color: grey;
   font-size: 0.8rem;
@@ -153,7 +153,7 @@ body {
   text-align: center;
 }
 
-.event_info1 .element1 .month p{
+.event_info1 .element1 .month p {
   text-align: center;
   margin-bottom: -1em;
 }
@@ -166,9 +166,10 @@ body {
   text-align: center;
 }
 
-.event_info2 .element1 .month p{
+.event_info2 .element1 .month p {
   text-align: center;
   margin-bottom: -1em;
+  margin-top: 3em;
 }
 
 .event_info2 .element1 h1 {
@@ -1851,7 +1852,7 @@ input[type=forminfo]:hover {
   }
 }
 
-@media screen and (max-width: 900px) and (min-width: 700px){
+@media screen and (max-width: 900px) and (min-width: 700px) {
   .banner1 .slogan .container {
     background-color: #fef5f0;
     width: 102%;
@@ -1997,7 +1998,7 @@ input[type=forminfo]:hover {
     margin-left: 20em;
   }
 
-  .sub1 button{
+  .sub1 button {
     margin-top: 34.25em;
     margin-left: 27.5%;
   }
@@ -2040,6 +2041,7 @@ input[type=forminfo]:hover {
   .intro {
     margin-top: 10em;
   }
+
   .sub1 button {
     left: 70%;
     margin-top: -4em;
@@ -2068,6 +2070,7 @@ input[type=forminfo]:hover {
   .intro {
     margin-top: 10em;
   }
+
   .sub1 button {
     left: 42.5%;
     margin-top: -4em;
@@ -2096,6 +2099,7 @@ input[type=forminfo]:hover {
   .intro {
     margin-top: 10em;
   }
+
   .sub1 button {
     left: 40%;
     margin-top: -4em;
@@ -2129,7 +2133,6 @@ input[type=forminfo]:hover {
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
-
   transition-property: background-color;
   transition-duration: 0.5s;
 }
@@ -2139,71 +2142,61 @@ input[type=forminfo]:hover {
 }
 
 /* product page */
-.banner2 .slogan{
+.banner2 .slogan {
   background-color: #000;
   width: 105%;
   margin-left: -0.5em;
 }
 
-.banner2 .slogan img{
+.banner2 .slogan img {
   width: 40%;
   margin-bottom: -1.5em;
 }
 
 .banner2 h1 {
+  position: absolute;
+  top: 20%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  color: #f2f2f2;
+}
+
+.banner2 p {
+  position: absolute;
+  top: 30%;
+  left: 57.5%;
+  transform: translate(-50%, -50%);
+  color: #f2f2f2;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 200px){
+  .banner2 .slogan {
+    background-color: #000;
+    width: 105%;
+    margin-left: -0.5em;
+    padding-top: 10em;
+  }
+
+  .banner2 h1 {
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 53%;
     transform: translate(-50%, -50%);
     color: #f2f2f2;
+    text-align: center;
   }
 
   .banner2 p {
     position: absolute;
-    top: 35%;
-    left: 56.5%;
+    top: 30%;
+    left: 57.5%;
     transform: translate(-50%, -50%);
     color: #f2f2f2;
-  }
-
-@media screen and (max-width: 800px) and (min-width: 200px){
-  .banner2 .slogan img{
-    width: 100%;
-  }
-
-  .banner2 .slogan{
-    padding-top: 20em;
-  }
-
-  .banner2 h1{
-    position: absolute;
-    text-align:center;
-    top: 20%;
-    left: 50%;
-  }
-
-  .banner2 p{
-    position: absolute;
     text-align: center;
-    top: 38%;
-    left: 50%;
-    width: 80%;
   }
 
-  .product_list{
-    width: 80%;
-    margin-left: 15%;
-  }
-
-  #iphone11 {
-    margin-left: 1em;
-  }
-
-  #iphone8 {
-    margin-left: -0.5em;
-  }
-  #iphone7{
-    margin-left: 1em;
+  .banner2 .slogan img {
+    width: 100%;
   }
 }
 
@@ -2215,11 +2208,11 @@ input[type=forminfo]:hover {
   padding: 0;
   margin: 0;
   list-style-type: none;
-  margin-top: 4em;
+  margin-top: 6em;
   margin-bottom: 4em;
   text-align: center;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .icon_bar nav li {
@@ -2240,44 +2233,7 @@ input[type=forminfo]:hover {
 
 .product_list {
   margin-bottom: 20em;
-}
-
-#iphone_xs .listing2 {
-  margin-top: 9.3em;
-}
-
-#iphone_xs .listing2 h3 {
-  margin-top: 1.4em;
-}
-
-@media screen and (max-width:2160px) {
-  #iphone_xs .listing2 {
-    margin-top: 7em;
-  }
-}
-
-@media screen and (max-width:2400px) {
-  #iphone_xs .listing2 {
-    margin-top: 7.7em;
-  }
-}
-
-@media screen and (max-width:2700px) {
-  #iphone_xs .listing2 {
-    margin-top: 8.4em;
-  }
-}
-
-@media screen and (max-width:2880px) {
-  #iphone_xs .listing2 {
-    margin-top: 8.6em;
-  }
-}
-
-@media screen and (max-width:3100px) {
-  #iphone_xs .listing2 {
-    margin-top: 9.1em;
-  }
+  margin-left: 8%;
 }
 
 .listing2 a {
@@ -2296,19 +2252,6 @@ input[type=forminfo]:hover {
   margin-top: 1em;
   transition-property: background-color;
   transition-duration: 0.5s;
-}
-
-#iphone8 .listing2 {
-  margin-top: 3.5em;
-}
-
-#iphone7 .listing2 {
-  margin-top: 4.4em;
-  margin-top: 5.7em;
-}
-
-#iphone7 .listing2 {
-  margin-top: 6.7em;
 }
 
 .icon_bar a {
