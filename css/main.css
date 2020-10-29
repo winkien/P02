@@ -339,6 +339,10 @@ body {
 .main-nav {
   list-style-type: none;
 }
+.main-nav li:hover{
+  list-style-type: none;
+transition: 0.5s;
+}
 
 .nav-links, .logo {
   text-decoration: none;
@@ -411,6 +415,7 @@ body {
   .logo:hover,
   .nav-links:hover {
     color: rgba(255, 255, 255, 1);
+    transition: 0.5s;
   }
 }
 
@@ -441,7 +446,7 @@ body {
 
 .navbar2 nav li :hover {
   color: #737373;
-  transition: transform 0.5s;
+  transition: 0.5s;
 }
 
 .logo img {
