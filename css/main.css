@@ -1665,7 +1665,7 @@ input[type=forminfo]:hover {
 
   .r-footer .footer-about, .r-footer .footer-product, .r-footer .footer-stylesheet {
     margin-top: 3em;
-    text-align: justify;
+    text-align: center;
   }
 }
 
@@ -1683,6 +1683,7 @@ input[type=forminfo]:hover {
   width: 105%;
   padding-right: 4em;
   padding-left: 4em;
+  text-align: center;
 }
 
 .footer>* {
