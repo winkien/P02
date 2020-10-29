@@ -1660,11 +1660,12 @@ input[type=forminfo]:hover {
     flex-flow: row wrap;
     margin-left: 30%;
     margin-right: 30%;
+    text-align: center;
   }
 
   .r-footer .footer-about, .r-footer .footer-product, .r-footer .footer-stylesheet {
     margin-top: 3em;
-    text-align: center;
+    text-align: justify;
   }
 }
 
