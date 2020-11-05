@@ -436,6 +436,7 @@ body {
 .main-nav {
   list-style-type: none;
   display: none;
+  padding-right: 2rem;
 }
 
 .active {
