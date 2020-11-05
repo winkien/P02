@@ -2361,7 +2361,7 @@ input[type=forminfo]:hover {
 
 .footer h4 {
   font-weight: 55em;
-  font-size: 1em;
+  font-size: 16px;
   color: #ddd;
 }
 
@@ -2399,7 +2399,6 @@ input[type=forminfo]:hover {
 }
 
 .b-footer {
-  float: center;
   padding-top: 3em;
 }
 
