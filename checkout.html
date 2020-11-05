@@ -1,178 +1,177 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1, minimum-scale=1" />
-  <title>P02 - Style Guide Winkie Ng & Vincent Zhang</title>
-  <link href="css/main.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1, minimum-scale=1" />
+    <title>P02 - Style Guide Winkie Ng & Vincent Zhang</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
 
-<body>
-  <div class="container">
-    <nav class="navbar">
-      <span class="navbar-toggle" id="js-navbar-toggle"><i class="fa fa-bars"></i></span>
-      <a href="index.html"><img src="img/logo3.png" alt="logo" style="width:50%"></a>
-      <ul class="main-nav" id="js-menu">
-        <li><a href="home.html" class="nav-links">Home</a></li>
-        <li><a href="about.html" class="nav-links">About Us</a></li>
-        <li><a href="event.html" class="nav-links">Events</a></li>
-        <li><a href="product.html" class="nav-links">Products</a></li>
-        <li><a href="#" id="nav-search" class="nav-links"><i class="fa fa-search"></i></a></li>
-        <li><span class="navbar_input"><input type="text" name="firstname" placeholder="Search..."></span></li>
-        <li><a href="checkout.html" class="nav-links"><i class="fa fa-shopping-cart"></i></a></li>
-      </ul>
-    </nav>
-  </div>
-
-
-  <div class="banner">
-    <section class="element">
-      <section class="bar">
-        <h4>Checkout Cart</h4>
-      </section>
-      <div class="checkout">
-        <div class="item">
-          <p><img src="img/iphone_xr.png" alt="xr" style="width:30%"></p>
-        </div>
-        <div class="text">
-          <h3>iPhone XR</h3>
-          <div class="id">
-            <p>Product ID: 428330</p>
-          </div>
-          <p>Color: Black<br>Condition: <br>Good Condition<br>Capacity: 64GB<br><br><b>Quantity: 1</b></p>
-          <div class="price">
-            <h4>$384</h4>
-          </div>
-        </div>
-      </div>
-      <div class="checkout">
-        <div class="item2">
-          <p><img src="img/iphone_xs_black.png" alt="6s" style="width:35%"></p>
-        </div>
-        <div class="text2">
-          <h3>iPhone XS</h3>
-          <div class="id">
-            <p>Product ID: 428335</p>
-          </div>
-          <p>Color: Black<br>Condition: <br>Good Condition<br>Capacity: 128GB<br><br><b>Quantity: 1</b></p>
-          <div class="price2">
-            <h4>$497</h4>
-          </div>
-        </div>
-      </div>
-      <div class="total">
-        <h3><span class="title">ORDER SUMMARY | 2 ITEMS</span></h3>
-        <p>Items subtotal<span class="price">CAD $ 384.00</span></p>
-        <p>Items subtotal<span class="price">CAD $ 497.00</span></p><br>
-        <h3>SUBTOTAL<span class="subtotal">CAD $881.00</span></h3>
-        <p>Estimated Tax<span class="tax">TBD</span></p><br>
-        <h3>ORDER TOTAL<span class="subtotal">CAD $881.00</span></h3>
-        <br>
-        <button class="total-button1" onclick="location.href='home.html';" value="checkout">Checkout</button>
-        <button class="total-button2" onclick="location.href='product.html';" value="back to product">Continue Shopping</button>
-      </div>
-    </section>
-    <section class="form">
-      <form action="index.html">
-        <br><br><br>
-        <h3>Contact Details:</h3><br><br>
-        <h4>First name<span class="star">*</span></h4><br>
-          <input type="text"  name="firstname" placeholder="Your First Name"><br>
-        <h4>Last name<span class="star">*</span></h4><br>
-  <input type="text"  name="lastname" placeholder="Your Last Name"><br>
-        <h4>Email Address<span class="star">*</span></h4><br>
-        <input type="text"  name="Your Email Address" placeholder="Your Eamil Address" style="width:50%"><br>
-        <h4>Phone<span class="star">*</span></h4><br>
-          <input type="text"  name="Your Phone Number" placeholder="Your Phone Number" style="width:40%"><br>
-        <h4>City<span class="star">*</span></h4><br>
-        <input type="text"   name="City, State" placeholder="City, State"><br><br><br>
-      </form>
-      <h3>Payment Method:</h3><br>
-      <p>Please select your payment method.</p><br>
-      <label class="payment">VISA/Master Card
-        <input type="radio">
-        <span class="checkmark"></span>
-      </label>
-      <label class="payment">PayPal
-        <input type="radio" >
-        <span class="checkmark"></span>
-      </label>
-      <br><br>
-      <h4>Credit Card Number<span class="star">*</span></h4><br>
-        <input type="text"   name="Credit Card Number" placeholder="Credit Card Number"><br><br>
-      <h4>Expiration date<span class="star">*</span></h4><br>
-        <input type="text"   name="Date" placeholder="MM/YY"><br><br>
-      <h4>Security Code<span class="star">*</span></h4><br>
-        <input type="text"   name="Security code" placeholder="3-Digit Number">
-      <h4>Full name<span class="star">*</span></h4><br>
-        <input type="text"   name="Name" placeholder="Cardholder's Name"><br><br>
-      <button class="button-nav" onclick="location.href='product.html';" value="back to product">Checkout</button>
-    </section>
-  </div>
-
-  <!-- footer -->
-  <footer class="footer">
-    <!-- <div class="l-footer">
-      <h4><img src="img/logo.png" alt="logo1" width=20%;></h4>
-      <p>Certied Cell provides safety security, and peace-of-mind throughout the process of buying or selling a phone. Buyers on Certified Cell use a quick and easy online platform to find the perfect phone
-        and sellers experience a streamlined cash-less way to sell their quality pre-owned phones using a trusted local retail location.</p>
-    </div> -->
-    <ul class="r-footer">
-      <li class="footer-about">
-        <h4><em>About Certified Cell</em></h4>
-        <ul class="footer-box">
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="#">Contact Us </a></li>
-          <li><a href="#">Find a store </a></li>
-          <li><a href="event.html">Events</a></li>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle"><i class="fa fa-bars"></i></span>
+        <a href="index.html"><img src="img/logo3.png" alt="logo" style="width:50%"></a>
+        <ul class="main-nav" id="js-menu">
+          <li><a href="home.html" class="nav-links">Home</a></li>
+          <li><a href="about.html" class="nav-links">About Us</a></li>
+          <li><a href="event.html" class="nav-links">Events</a></li>
+          <li><a href="product.html" class="nav-links">Products</a></li>
+          <li><a href="sell.html" class="nav-links">Sell</a></li>
+          <li><a href="#" id="nav-search" class="nav-links"><i class="fa fa-search"></i></a></li>
+          <li><span class="navbar_input"><input type="text" name="firstname" placeholder="Search..."></span></li>
+          <li><a href="checkout.html" class="nav-links"><i class="fa fa-shopping-cart"></i></a></li>
         </ul>
-      </li>
-
-      <li class="footer-stylesheet">
-        <h4><em>Style Guide</em></h4>
-        <ul class="footer-box">
-          <li><a href="index.html#idea">Branding Idea </a></li>
-          <li><a href="index.html#interactive_elements">Iterative Elements</a></li>
-          <li><a href="index.html#text_elements">Text Elements </a></li>
-          <li><a href="index.html#combined_elements">Combined Elements</a></li>
-          <li><a href="index.html#components">Brand Components</a></li>
-          <li><a href="index.html#citations">Citations</a></li>
-        </ul>
-      </li>
-
-      <li class="footer-product">
-        <h4><em>Products</em></h4>
-        <ul class="footer-box">
-          <li><a href="product.html">Buy an iPhone </a></li>
-          <li><a href="product.html">Sell an iPhone</a></li>
-          <li><a href="checkout.html">Checkout</a></li>
-          <li><a href="index.html#citations">Citations</a></li>
-        </ul>
-      </li>
-    </ul>
-    <div class="b-footer">
-      <p>All Right Reserved by &copy; Winkie Ng & Vincent Zhang
-        <i class="fa fa-facebook-square"></i>
-        <i class="fa fa-twitter-square"></i>
-        <i class="fa fa-instagram"></i>
-        <i class="fa fa-youtube"></i>
-      </p>
+      </nav>
     </div>
-  </footer>
 
-  <script>
-    let mainNav = document.getElementById('js-menu');
-    let navBarToggle = document.getElementById('js-navbar-toggle');
 
-    navBarToggle.addEventListener('click', function() {
+    <div class="banner">
+      <section class="element">
+        <section class="bar">
+          <h4>Checkout Cart</h4>
+        </section>
+        <div class="checkout">
+          <div class="item">
+            <p><img src="img/iphone_xr_black.jpg" alt="xr" style="height:15em"></p>
+          </div>
+          <div class="text">
+            <h3>iPhone XR</h3>
+            <div class="id">
+              <p>Product ID: 428330</p>
+            </div>
+            <p>Color: Black<br>Condition: <br>Good Condition<br>Capacity: 64GB<br><br><b>Quantity: 1</b></p>
+            <div class="price">
+              <h4>$384</h4>
+            </div>
+          </div>
+        </div>
+        <div class="checkout">
+          <div class="item2">
+            <p><img src="img/iphone_xs.jpg" alt="6s" style="height:15em"></p>
+          </div>
+          <div class="text2">
+            <h3>iPhone XS</h3>
+            <div class="id">
+              <p>Product ID: 428335</p>
+            </div>
+            <p>Color: Black<br>Condition: <br>Good Condition<br>Capacity: 128GB<br><br><b>Quantity: 1</b></p>
+            <div class="price2">
+              <h4>$497</h4>
+            </div>
+          </div>
+        </div>
+        <div class="total">
+          <h3><span class="title">ORDER SUMMARY | 2 ITEMS</span></h3>
+          <p>Items subtotal<span class="price">CAD $ 384.00</span></p>
+          <p>Items subtotal<span class="price">CAD $ 497.00</span></p><br>
+          <h3>SUBTOTAL<span class="subtotal">CAD $881.00</span></h3>
+          <p>Estimated Tax<span class="tax">TBD</span></p><br>
+          <h3>ORDER TOTAL<span class="subtotal">CAD $881.00</span></h3>
+          <br>
+          <button class="total-button1" onclick="location.href='home.html';" value="checkout">Checkout</button>
+          <button class="total-button2" onclick="location.href='product.html';" value="back to product">Continue Shopping</button>
+        </div>
+      </section>
+      <section class="form">
+        <form action="index.html">
+          <br><br><br>
+          <h3>Contact Details:</h3><br><br>
+          <h4>First name<span class="star">*</span></h4><br>
+          <input type="text" name="firstname" placeholder="Your First Name"><br>
+          <h4>Last name<span class="star">*</span></h4><br>
+          <input type="text" name="lastname" placeholder="Your Last Name"><br>
+          <h4>Email Address<span class="star">*</span></h4><br>
+          <input type="text" name="Your Email Address" placeholder="Your Eamil Address" style="width:50%"><br>
+          <h4>Phone<span class="star">*</span></h4><br>
+          <input type="text" name="Your Phone Number" placeholder="Your Phone Number" style="width:40%"><br>
+          <h4>City<span class="star">*</span></h4><br>
+          <input type="text" name="City, State" placeholder="City, State"><br><br><br>
+        </form>
+        <h3>Payment Method:</h3><br>
+        <p>Please select your payment method.</p><br>
+        <label class="payment">VISA/Master Card
+          <input type="radio">
+          <span class="checkmark"></span>
+        </label>
+        <label class="payment">PayPal
+          <input type="radio">
+          <span class="checkmark"></span>
+        </label>
+        <br><br>
+        <h4>Credit Card Number<span class="star">*</span></h4><br>
+        <input type="text" name="Credit Card Number" placeholder="Credit Card Number"><br><br>
+        <h4>Expiration date<span class="star">*</span></h4><br>
+        <input type="text" name="Date" placeholder="MM/YY"><br><br>
+        <h4>Security Code<span class="star">*</span></h4><br>
+        <input type="text" name="Security code" placeholder="3-Digit Number">
+        <h4>Full name<span class="star">*</span></h4><br>
+        <input type="text" name="Name" placeholder="Cardholder's Name"><br><br>
+        <button class="button-nav" onclick="location.href='product.html';" value="back to product">Checkout</button>
+      </section>
+    </div>
 
-      mainNav.classList.toggle('active');
-    });
-  </script>
+    <!-- footer -->
+    <footer class="footer">
+      <!-- <div class="l-footer">
+        <h4><img src="img/logo.png" alt="logo1" width=20%;></h4>
+        <p>Certied Cell provides safety security, and peace-of-mind throughout the process of buying or selling a phone. Buyers on Certified Cell use a quick and easy online platform to find the perfect phone
+          and sellers experience a streamlined cash-less way to sell their quality pre-owned phones using a trusted local retail location.</p>
+      </div> -->
+      <ul class="r-footer">
+        <li class="footer-about">
+          <h4><em>About Certified Cell</em></h4>
+          <ul class="footer-box">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Contact Us </a></li>
+            <li><a href="#">Find a store </a></li>
+            <li><a href="event.html">Events</a></li>
+          </ul>
+        </li>
+
+        <li class="footer-stylesheet">
+          <h4><em>Style Guide</em></h4>
+          <ul class="footer-box">
+            <li><a href="index.html#idea">Branding Idea </a></li>
+            <li><a href="index.html#interactive_elements">Iterative Elements</a></li>
+            <li><a href="index.html#text_elements">Text Elements </a></li>
+            <li><a href="index.html#combined_elements">Combined Elements</a></li>
+            <li><a href="index.html#components">Brand Components</a></li>
+            <li><a href="index.html#citations">Citations</a></li>
+          </ul>
+        </li>
+
+        <li class="footer-product">
+          <h4><em>Products</em></h4>
+          <ul class="footer-box">
+            <li><a href="product.html">Buy an iPhone </a></li>
+            <li><a href="product.html">Sell an iPhone</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+            <li><a href="index.html#citations">Citations</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="b-footer">
+        <p>All Right Reserved by &copy; Winkie Ng & Vincent Zhang
+          <i class="fa fa-facebook-square"></i>
+          <i class="fa fa-twitter-square"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-youtube"></i>
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      let mainNav = document.getElementById('js-menu');
+      let navBarToggle = document.getElementById('js-navbar-toggle');
+
+      navBarToggle.addEventListener('click', function() {
+
+        mainNav.classList.toggle('active');
+      });
+    </script>
   </body>
 
-  </html>
+</html>

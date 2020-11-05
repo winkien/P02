@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1, minimum-scale=1" />
+    <title>P02 - Style Guide Winkie Ng & Vincent Zhang</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle"><i class="fa fa-bars"></i></span>
+        <a href="index.html"><img src="img/logo3.png" alt="logo" style="width:50%"></a>
+        <ul class="main-nav" id="js-menu">
+          <li><a href="home.html" class="nav-links">Home</a></li>
+          <li><a href="about.html" class="nav-links">About Us</a></li>
+          <li><a href="event.html" class="nav-links">Events</a></li>
+          <li><a href="product.html" class="nav-links">Products</a></li>
+          <li><a href="sell.html" class="nav-links">Sell</a></li>
+          <li><a href="#" id="nav-search" class="nav-links"><i class="fa fa-search"></i></a></li>
+          <li><span class="navbar_input"><input type="text" name="firstname" placeholder="Search..."></span></li>
+          <li><a href="checkout.html" class="nav-links"><i class="fa fa-shopping-cart"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="banner">
+      <section class="sell_form">
+        <form action="index.html">
+          <br><br><br>
+          <h3>Contact Details:</h3><br><br>
+          <h4>First name<span class="star">*</span></h4><br>
+          <input type="text" name="firstname" placeholder="Your First Name"><br>
+          <h4>Last name<span class="star">*</span></h4><br>
+          <input type="text" name="lastname" placeholder="Your Last Name"><br>
+          <h4>Email Address<span class="star">*</span></h4><br>
+          <input type="text" name="Your Email Address" placeholder="Your Eamil Address" ><br>
+          <h4>Phone<span class="star">*</span></h4><br>
+          <input type="text" name="Your Phone Number" placeholder="Your Phone Number"><br>
+          <h4>City<span class="star">*</span></h4><br>
+          <input type="text" name="City, State" placeholder="City, State">
+        </form>
+        <button class="button-nav" onclick="location.href='product.html';" value="back to product">Submit</button>
+      </section>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <!-- <div class="l-footer">
+        <h4><img src="img/logo.png" alt="logo1" width=20%;></h4>
+        <p>Certied Cell provides safety security, and peace-of-mind throughout the process of buying or selling a phone. Buyers on Certified Cell use a quick and easy online platform to find the perfect phone
+          and sellers experience a streamlined cash-less way to sell their quality pre-owned phones using a trusted local retail location.</p>
+      </div> -->
+      <ul class="r-footer">
+        <li class="footer-about">
+          <h4><em>About Certified Cell</em></h4>
+          <ul class="footer-box">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Contact Us </a></li>
+            <li><a href="#">Find a store </a></li>
+            <li><a href="event.html">Events</a></li>
+          </ul>
+        </li>
+
+        <li class="footer-stylesheet">
+          <h4><em>Style Guide</em></h4>
+          <ul class="footer-box">
+            <li><a href="index.html#idea">Branding Idea </a></li>
+            <li><a href="index.html#interactive_elements">Iterative Elements</a></li>
+            <li><a href="index.html#text_elements">Text Elements </a></li>
+            <li><a href="index.html#combined_elements">Combined Elements</a></li>
+            <li><a href="index.html#components">Brand Components</a></li>
+            <li><a href="index.html#citations">Citations</a></li>
+          </ul>
+        </li>
+
+        <li class="footer-product">
+          <h4><em>Products</em></h4>
+          <ul class="footer-box">
+            <li><a href="product.html">Buy an iPhone </a></li>
+            <li><a href="product.html">Sell an iPhone</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+            <li><a href="index.html#citations">Citations</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="b-footer">
+        <p>All Right Reserved by &copy; Winkie Ng & Vincent Zhang
+          <i class="fa fa-facebook-square"></i>
+          <i class="fa fa-twitter-square"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-youtube"></i>
+        </p>
+      </div>
+    </footer>
+
+
+    <script>
+      let mainNav = document.getElementById('js-menu');
+      let navBarToggle = document.getElementById('js-navbar-toggle');
+
+      navBarToggle.addEventListener('click', function() {
+
+        mainNav.classList.toggle('active');
+      });
+    </script>
+  </body>
+
+</html>
