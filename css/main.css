@@ -2360,7 +2360,7 @@ input[type=forminfo]:hover {
 }
 
 .footer h4 {
-  font-weight: 55em;
+  font-weight: normal;
   font-size: 16px;
   color: #ddd;
 }
