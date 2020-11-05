@@ -2421,18 +2421,19 @@ input[type=forminfo]:hover {
   .slogan .centered_slogan {
     position: absolute;
     text-align: center;
-    top: 50%;
+    font-size: 1.8rem;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #737373;
   }
   .slogan_button3 .button-nav {
     position: absolute;
-    top: 60%;
+    top: 61%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color:#c65353;
     color: white;
     font-size: 16px;
     padding: 12px 24px;
@@ -2443,6 +2444,7 @@ input[type=forminfo]:hover {
     transition-property: background-color;
     transition-duration: 0.5s;
   }
+
   .slogan_button1 .button-nav {
     position: absolute;
     top: 70%;
@@ -2488,7 +2490,23 @@ input[type=forminfo]:hover {
     transform: translate(-50%, -50%);
     color: #737373;
   }
-
+  .slogan_button3 .button-nav {
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:#c65353;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
   .slogan_button1 .button-nav {
     position: absolute;
     top: 60%;
@@ -2533,6 +2551,23 @@ input[type=forminfo]:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #737373;
+  }
+  .slogan_button3 .button-nav {
+    position: absolute;
+    margin-top: -5em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:#c65353;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
   }
 
   .slogan_button1 .button-nav {
@@ -2579,6 +2614,24 @@ input[type=forminfo]:hover {
     padding-top: 15em;
     margin-left: -0.1em;
     padding-bottom: 0;
+  }
+
+  .slogan_button3 .button-nav {
+    position: absolute;
+    margin-top: -5em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:#c65353;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
   }
 
   .slogan .centered_slogan {
@@ -2635,6 +2688,23 @@ input[type=forminfo]:hover {
     padding-top: 15em;
     margin-left: -0.1em;
     padding-bottom: 0;
+  }
+  .slogan_button3 .button-nav {
+    position: absolute;
+    margin-top: -5em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:#c65353;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
   }
 
   .slogan .centered_slogan {
@@ -2702,7 +2772,23 @@ input[type=forminfo]:hover {
     text-align: center;
     font-size: 1.1em;
   }
-
+  .slogan_button3 .button-nav {
+    position: absolute;
+    margin-top: -5em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:#c65353;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
   .slogan_button1 .button-nav {
     position: absolute;
     margin-top: -15em;
@@ -2740,7 +2826,7 @@ input[type=forminfo]:hover {
   }
 }
 
-.slogan_button1 .button-nav:hover, .slogan_button2 .button-nav:hover {
+.slogan_button3 .button-nav:hover, .slogan_button1 .button-nav:hover, .slogan_button2 .button-nav:hover {
   background-color: #3366cc;
   color: #f2f2f2;
   text-decoration: none;
