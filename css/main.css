@@ -2420,6 +2420,7 @@ input[type=forminfo]:hover {
 @media screen and (max-width: 4000px) and (min-width: 1500px) {
   .slogan .centered_slogan {
     position: absolute;
+    text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
