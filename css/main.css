@@ -209,7 +209,7 @@ body {
   text-align: center;
 }
 
-.event_info1 .element1 .month a {
+.event_info1 .element1 .month p {
   text-align: center;
   margin-bottom: -1em;
 }
@@ -222,10 +222,9 @@ body {
   text-align: center;
 }
 
-.event_info2 .element1 .month a {
+.event_info2 .element1 .month p {
   text-align: center;
   margin-bottom: -1em;
-  margin-top: 3em;
 }
 
 .event_info2 .element1 h1 {
@@ -430,6 +429,10 @@ body {
   color: rgba(255, 255, 255, 0.8);
   font-size: 24px;
   padding-top: 1em;
+}
+
+.navbar_input {
+  margin-left: 1em;
 }
 
 .main-nav {
@@ -2350,7 +2353,7 @@ input[type=forminfo]:hover {
   margin-left: -0.5em;
   margin-top: -1.2em;
   width: 105%;
-  padding-right: 4em;
+  padding-right: 8em;
   padding-left: 4em;
   text-align: center;
 }
