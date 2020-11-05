@@ -2429,7 +2429,7 @@ input[type=forminfo]:hover {
   .slogan_button3 .button-nav {
     position: absolute;
     top: 60%;
-    left: 42%;
+    left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #555;
