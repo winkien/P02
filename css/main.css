@@ -54,7 +54,7 @@ body {
     margin-left: 12%;
   }
 
-  .banner3 .slogan_sentence h1 {
+  .banner3 .slogan_sentence h2 {
     color: white;
     font-size: 2.5em;
     margin-top: -2em;
@@ -89,7 +89,7 @@ body {
     margin-left: 12%;
   }
 
-  .banner3 .slogan_sentence h1 {
+  .banner3 .slogan_sentence h2 {
     color: white;
     font-size: 2.5em;
     margin-top: -1em;
@@ -117,7 +117,7 @@ body {
     width: 100%;
   }
 
-  .banner3 .slogan_sentence h1 {
+  .banner3 .slogan_sentence h2 {
     color: white;
     font-size: 2em;
     margin-top: 5em;
@@ -145,7 +145,7 @@ body {
     width: 100%;
   }
 
-  .banner3 .slogan_sentence h1 {
+  .banner3 .slogan_sentence h2 {
     color: white;
     font-size: 2em;
     margin-top: 0em;
@@ -176,7 +176,7 @@ body {
     /* transform: translate(50%, 50%); */
   }
 
-  .banner3 .slogan_sentence h1 {
+  .banner3 .slogan_sentence h2 {
     color: white;
   }
 
@@ -204,7 +204,7 @@ body {
     /* transform: translate(50%, 50%); */
   }
 
-  .banner3 .slogan_sentence h1 {
+  .banner3 .slogan_sentence h2 {
     color: white;
   }
 
@@ -230,7 +230,7 @@ body {
     width: 80%;
   }
 
-  .banner3 .slogan_sentence h1 {
+  .banner3 .slogan_sentence h2 {
     color: white;
     margin-top: 2em;
     margin-left: 1em;
@@ -259,7 +259,7 @@ body {
     width: 80%;
   }
 
-  .banner3 .slogan_sentence h1 {
+  .banner3 .slogan_sentence h2 {
     color: white;
     margin-top: 3em;
     margin-left: 1em;
@@ -294,7 +294,7 @@ body {
     /* transform: translate(-50%, -50%); */
   }
 
-  .banner3 .slogan_sentence h1 {
+  .banner3 .slogan_sentence h2 {
     color: white;
     font-size: 6em;
     margin-top: -2em;
@@ -329,7 +329,7 @@ body {
     /* transform: translate(-50%, -50%); */
   }
 
-  .banner3 .slogan_sentence h1 {
+  .banner3 .slogan_sentence h2 {
     color: white;
     font-size: 5em;
     margin-top: -2em;
@@ -364,7 +364,7 @@ body {
     /* transform: translate(-50%, -50%); */
   }
 
-  .banner3 .slogan_sentence h1 {
+  .banner3 .slogan_sentence h2 {
     color: white;
     font-size: 4em;
     margin-top: -2em;
@@ -399,7 +399,7 @@ body {
     /* transform: translate(-50%, -50%); */
   }
 
-  .banner3 .slogan_sentence h1 {
+  .banner3 .slogan_sentence h2 {
     color: white;
     font-size: 3em;
     margin-top: -2em;
@@ -434,7 +434,7 @@ body {
     /* transform: translate(-50%, -50%); */
   }
 
-  .banner3 .slogan_sentence h1 {
+  .banner3 .slogan_sentence h2 {
     color: white;
     font-size: 2em;
     margin-top: -2em;
@@ -480,10 +480,10 @@ body {
   margin-bottom: -1em;
 }
 
-.event_info1 .element1 h1 {
+.event_info1 .element1 h2 {
   font-family: impact;
   font-size: 45px;
-  color: #737373;
+  color: black;
   margin-bottom: -1em;
   text-align: center;
 }
@@ -493,7 +493,7 @@ body {
   margin-bottom: -1em;
 }
 
-.event_info2 .element1 h1 {
+.event_info2 .element1 h2 {
   font-family: impact;
   font-size: 45px;
   color: #fff;
