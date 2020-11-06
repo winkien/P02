@@ -5903,3 +5903,8 @@ input[type=forminfo]:hover {
   margin-left: 1em;
   margin-top: 2em;
 }
+
+.headingw h2{
+  color: white;
+  font-size: 1px;
+}
