@@ -3061,6 +3061,55 @@ input[type=forminfo]:hover {
 }
 
 /* home.html */
+
+.slogan_button3 .button-nav {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #c65353;
+  color: white;
+  font-size: 3em;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.slogan_button1 .button {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 3em;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.slogan_button2 .button {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 3em;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
 @media screen and (max-width: 3500px) and (min-width: 3300px) {
   .slogan .centered_slogan {
     position: absolute;
@@ -3091,9 +3140,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button1 .button-nav {
+  .slogan_button1 .button {
     position: absolute;
-    top: 30em;
+    margin-top:-10em;
     margin-left: 32em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3109,9 +3158,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button2 .button-nav {
+  .slogan_button2 .button {
     position: absolute;
-    top: 30em;
+    margin-top:-10em;
     margin-left: 42em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3158,9 +3207,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button1 .button-nav {
+  .slogan_button1 .button {
     position: absolute;
-    top: 30em;
+    margin-top: -10em;
     margin-left: 31em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3176,9 +3225,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button2 .button-nav {
+  .slogan_button2 .button {
     position: absolute;
-    top: 30em;
+    margin-top: -10em;
     margin-left: 41em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3225,9 +3274,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button1 .button-nav {
+  .slogan_button1 .button {
     position: absolute;
-    top: 28em;
+    margin-top: -10em;
     margin-left: 28em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3243,9 +3292,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button2 .button-nav {
+  .slogan_button2 .button {
     position: absolute;
-    top: 28em;
+    margin-top: -10em;
     margin-left: 38em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3292,9 +3341,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button1 .button-nav {
+  .slogan_button1 .button{
     position: absolute;
-    top: 25em;
+    margin-top: -10em;
     margin-left: 25em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3310,9 +3359,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button2 .button-nav {
+  .slogan_button2 .button {
     position: absolute;
-    top: 25em;
+    margin-top: -10em;
     margin-left: 35em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3360,9 +3409,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button1 .button-nav {
+  .slogan_button1 .button {
     position: absolute;
-    top: 30em;
+    margin-top: -10em;
     margin-left: 30em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3378,9 +3427,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button2 .button-nav {
+  .slogan_button2 .button {
     position: absolute;
-    top: 30em;
+    margin-top: -10em;
     margin-left: 40em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3427,9 +3476,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button1 .button-nav {
+  .slogan_button1 .button {
     position: absolute;
-    top: 33em;
+    margin-top: -10em;
     margin-left: 36em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3445,9 +3494,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button2 .button-nav {
+  .slogan_button2 .button {
     position: absolute;
-    top: 33em;
+    margin-top: -10em;
     margin-left: 48em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3495,9 +3544,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button1 .button-nav {
+  .slogan_button1 .button {
     position: absolute;
-    top: 33em;
+    margin-top: -10em;
     margin-left: 33em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3513,9 +3562,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button2 .button-nav {
+  .slogan_button2 .button {
     position: absolute;
-    top: 33em;
+    margin-top: -10em;
     margin-left: 43em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3563,9 +3612,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button1 .button-nav {
+  .slogan_button1 .button {
     position: absolute;
-    top: 30em;
+    margin-top: -10em;
     margin-left: 30em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3581,10 +3630,10 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button2 .button-nav {
+  .slogan_button2 .button {
     position: absolute;
-    top: 30em;
-    margin-left: 43em;
+    margin-top: -10em;
+    margin-left: 42em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #555;
@@ -3631,9 +3680,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button1 .button-nav {
+  .slogan_button1 .button {
     position: absolute;
-    top: 30em;
+    margin-top: -8em;
     margin-left: 28em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3649,9 +3698,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button2 .button-nav {
+  .slogan_button2 .button {
     position: absolute;
-    top: 30em;
+    margin-top: -8em;
     margin-left: 38em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3699,9 +3748,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button1 .button-nav {
+  .slogan_button1 .button {
     position: absolute;
-    top: 25em;
+    margin-top: -8em;
     margin-left: 27em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3717,9 +3766,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button2 .button-nav {
+  .slogan_button2 .button {
     position: absolute;
-    top: 25em;
+    margin-top: -8em;
     margin-left: 38em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3767,9 +3816,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button1 .button-nav {
+  .slogan_button1 .button {
     position: absolute;
-    top: 25em;
+    margin-top: -8em;
     margin-left: 25em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3785,9 +3834,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button2 .button-nav {
+  .slogan_button2 .button {
     position: absolute;
-    top: 25em;
+    margin-top: -8em;
     margin-left: 35em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3834,9 +3883,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button1 .button-nav {
+  .slogan_button1 .button {
     position: absolute;
-    top: 25em;
+    margin-top: -6em;
     margin-left: 24em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3852,9 +3901,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button2 .button-nav {
+  .slogan_button2 .button {
     position: absolute;
-    top: 25em;
+    margin-top: -6em;
     margin-left: 34em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3902,9 +3951,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button1 .button-nav {
+  .slogan_button1 .button {
     position: absolute;
-    top: 23em;
+    margin-top: -6em;
     margin-left: 22em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3920,9 +3969,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button2 .button-nav {
+  .slogan_button2 .button {
     position: absolute;
-    top: 23em;
+    margin-top: -6em;
     margin-left: 32em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3970,9 +4019,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button1 .button-nav {
+  .slogan_button1 .button {
     position: absolute;
-    top: 28em;
+    margin-top: -6em;
     margin-left: 29em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3988,9 +4037,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button2 .button-nav {
+  .slogan_button2 .button {
     position: absolute;
-    top: 28em;
+    margin-top: -6em;
     margin-left: 39em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -4037,9 +4086,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button1 .button-nav {
+  .slogan_button1 .button {
     position: absolute;
-    top: 28em;
+    margin-top: -6em;
     margin-left: 27em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -4055,9 +4104,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button2 .button-nav {
+  .slogan_button2 .button {
     position: absolute;
-    top: 28em;
+    margin-top: -6em;
     margin-left: 38em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -4104,9 +4153,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button1 .button-nav {
+  .slogan_button1 .button {
     position: absolute;
-    top: 38em;
+    margin-top: -10em;
     margin-left: 39em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -4122,9 +4171,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button2 .button-nav {
+  .slogan_button2 .button {
     position: absolute;
-    top: 38em;
+    margin-top: -10em;
     margin-left: 50em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -4171,9 +4220,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button1 .button-nav {
+  .slogan_button1 .button {
     position: absolute;
-    top: 38em;
+    margin-top: -10em;
     margin-left: 36em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -4189,9 +4238,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button2 .button-nav {
+  .slogan_button2 .button {
     position: absolute;
-    top: 38em;
+    margin-top: -10em;
     margin-left: 48em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -4238,9 +4287,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button1 .button-nav {
+  .slogan_button1 .button {
     position: absolute;
-    top: 35em;
+    margin-top: -7em;
     margin-left: 33em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -4256,9 +4305,9 @@ input[type=forminfo]:hover {
     transition-duration: 0.5s;
   }
 
-  .slogan_button2 .button-nav {
+  .slogan_button2 .button {
     position: absolute;
-    top: 35em;
+    margin-top: -7em;
     margin-left: 43em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
