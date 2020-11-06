@@ -4302,7 +4302,7 @@ input[type=forminfo]:hover {
 
   .slogan_button1 .button-nav {
     position: absolute;
-    top: 50em;
+    margin-top: 18em;
     margin-left: 39em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -4320,7 +4320,7 @@ input[type=forminfo]:hover {
 
   .slogan_button2 .button-nav {
     position: absolute;
-    top: 50em;
+    margin-top: 18em;
     margin-left: 50em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -4368,7 +4368,7 @@ input[type=forminfo]:hover {
 
   .slogan_button1 .button-nav {
     position: absolute;
-    top: 47em;
+    margin-top: 45em;
     margin-left: 33em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -5025,7 +5025,7 @@ input[type=forminfo]:hover {
 
   .slogan_button1 .button-nav {
     position: absolute;
-    top: 45em;
+    /* top: 45em; */
     margin-left: 20em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -5043,7 +5043,7 @@ input[type=forminfo]:hover {
 
   .slogan_button2 .button-nav {
     position: absolute;
-    top: 50em;
+    /* top: 50em; */
     margin-left: 20em;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
